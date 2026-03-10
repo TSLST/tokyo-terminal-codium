@@ -1,11 +1,25 @@
-[README]
+[README][README]
+---
+```shin'en
+   /$$            /$$            /$$     /$$$$$$$$$$      
+  | $$/$$    /$$$$$$$$$$$$      /$$  /$$ |_______/$$      
+   \/ $$    | $$__ $$__ $$     /$$  /$$      /$$/$$$      
+   / $$     | $$  \$$  \$$    /$$$$$$$ /$$$$$$$$$$$$$$$   
+  / $$ $$   | $$$$$$$$$$$$   |___/$$$  |___/$$$$\____ /   
+/ $$ $$ \$$ | $$__ $$__ $$      /$$/ /$$   |__\$$$ /$$/   
+|__/ $$ |_/ | $$$$$$$$$$$$    /$$$$$$$$$$ \$$$_$$$\$$/    
+   | $$     | $$_| $$__ $$   /$$______/ \$|___/$$/$$$\    
+   | $$     |__/ | $$  |_/   |/$$ |$$ \$$//$$$$$$|$$$\    
+   | $$          | $$        /$$/ |$$  \$$\_/$$$/ |$$$_   
+   |__/          |__/        |_/  |_/   \/|$$$$/   \$$$   
+```
 ---
 
 ### **Short Description (for marketplace/extension metadata)**
 ```
 ***tokyo_terminal*** is a high-contrast, neon-drenched VSCode theme inspired by a **retro-futurist 80s terminal** aesthetics, and Tokyo’s electric nights.
 Built for clarity and vibrancy, with accentuation for maximum visual efficiency.
-Designed @ 神涅克斯 (2026)
+Designed @ 神縁 (2026)
 ```
 
 ---
@@ -31,6 +45,6 @@ For developers nostalgic of the future. For those who code like the future depen
 ![Color Palette](images/palette.png)
 
 ---
-**Made by 神涅克斯 in 2026 under MIT License**
+**Made by 神縁 in 2026 under MIT License**
 [GitHub](https://github.com/TSLST)
 [Mastodon](https://mastodon.social/@TSLST)

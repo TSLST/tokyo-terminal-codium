@@ -995,13 +995,6 @@
 			}
 		},
 		{
-			"scope": "markup.heading",
-			"settings": {
-				"foreground": "#FFE61C",
-				"fontStyle": "bold"
-			}
-		},
-		{
 			"scope": [
 				"text.html.markdown markup.inline.raw",
 				"text.html.markdown markup.inline.raw punctuation.definition.raw"
@@ -1019,7 +1012,7 @@
 		{
 			"scope": "markup.italic",
 			"settings": {
-				"foreground": "#FFE61C",
+				"foreground": "#0f675b",
 				"fontStyle": "italic"
 			}
 		},
@@ -1525,11 +1518,18 @@
 			}
 		},
 		{
+			"scope": "markup.heading",
+			"settings": {
+				"foreground": "#FFE61C",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"scope": [
 				"heading.2.markdown"
 			],
 			"settings": {
-				"foreground": "#6C18D6",
+				"foreground": "#fe8019",
 				"fontStyle": "bold"
 			}
 		},
@@ -1538,7 +1538,7 @@
 				"heading.3.markdown"
 			],
 			"settings": {
-				"foreground": "#fe8019",
+				"foreground": "#6C18D6",
 				"fontStyle": "bold"
 			}
 		},
