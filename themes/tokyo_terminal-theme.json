@@ -22,8 +22,8 @@
 		"debugExceptionWidget.background": "#ff0000",
 		"debugExceptionWidget.border": "#ff0000",
 		"debugToolBar.background": "#ff0000",
-		"diffEditor.insertedTextBackground": "#ff0000cc",
-		"diffEditor.removedTextBackground": "#ff0000cc",
+		"diffEditor.insertedTextBackground": "#6c18d655",
+		"diffEditor.removedTextBackground": "#6c18d655",
 		"dropdown.border": "#ff0000",
 		"dropdown.foreground": "#00ff00",
 		"editor.background": "#060507",
@@ -1586,6 +1586,18 @@
 			],
 			"settings": {
 				"foreground": "#34E2E2",
+				"fontStyle": ""
+			},
+		},
+		{
+			"scope": [
+				"meta.embedded.math.markdown",
+				"markup.math.inline.markdown",
+				"meta.paragraph.markdown",
+				"text.html.markdown"
+			],
+			"settings": {
+				"foreground": "#39FF14",
 				"fontStyle": ""
 			}
 		}
