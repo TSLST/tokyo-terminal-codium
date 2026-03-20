@@ -1592,9 +1592,7 @@
 		{
 			"scope": [
 				"meta.embedded.math.markdown",
-				"markup.math.inline.markdown",
-				"meta.paragraph.markdown",
-				"text.html.markdown"
+				"markup.math.inline.markdown"
 			],
 			"settings": {
 				"foreground": "#39FF14",
