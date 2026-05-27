@@ -378,7 +378,10 @@
 			}
 		},
 		{
-			"scope": "invalid.illegal",
+			"scope": [
+				"invalid.illegal",
+				"invalid.illegal.placeholder.c"
+			],
 			"settings": {
 				"foreground": "#FF3B3B"
 			}
@@ -611,43 +614,6 @@
 			"scope": "variable.parameter",
 			"settings": {
 				"foreground": "#FFFFFF"
-			}
-		},
-		{
-			"scope": "punctuation.separator.pointer-access.c",
-			"settings": {
-				"foreground": "#F1ADFF"
-			}
-		},
-		{
-			"scope": [
-				"source.c meta.preprocessor.include",
-				"source.cpp meta.preprocessor.include"
-			],
-			"settings": {
-				"foreground": "#34E2E2",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"scope": [
-				"source.c string.quoted.other.lt-gt.include",
-				"source.cpp string.quoted.other.lt-gt.include"
-			],
-			"settings": {
-				"foreground": "#34E2E2"
-			}
-		},
-		{
-			"scope": [
-				"source.cpp keyword.control.directive.conditional",
-				"source.cpp punctuation.definition.directive",
-				"source.c keyword.control.directive.conditional",
-				"source.c punctuation.definition.directive"
-			],
-			"settings": {
-				"foreground": "#FF0000",
-				"fontStyle": "bold"
 			}
 		},
 		{
@@ -1093,48 +1059,17 @@
 		},
 		{
 			"scope": [
+				"markup.fenced_code.block.markdown"
+			],
+			"settings": {
+				"foreground": "#34E2E2",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
 				"source.php meta.function-call",
 				"source.php meta.function-call.object"
-			],
-			"settings": {
-				"foreground": "#0F675B"
-			}
-		},
-		{
-			"scope": [
-				"source.python entity.name.function.decorator",
-				"source.python meta.function.decorator support.type"
-			],
-			"settings": {
-				"foreground": "#D08770"
-			}
-		},
-		{
-			"scope": [
-				"source.python meta.function-call",
-				"source.python meta.function-call.generic"
-			],
-			"settings": {
-				"foreground": "#0F675B"
-			}
-		},
-		{
-			"scope": "source.python support.type",
-			"settings": {
-				"foreground": "#0F675B"
-			}
-		},
-		{
-			"scope": [
-				"source.python variable.parameter.function.language"
-			],
-			"settings": {
-				"foreground": "#D8DEE9"
-			}
-		},
-		{
-			"scope": [
-				"source.python meta.function.parameters variable.parameter.function.language.special.self"
 			],
 			"settings": {
 				"foreground": "#0F675B"
@@ -1313,40 +1248,11 @@
 		},
 		{
 			"scope": [
-				"source.c keyword.control.directive",
-				"source.cpp keyword.control.directive",
-				"source.c punctuation.definition.directive",
-				"source.cpp punctuation.definition.directive"
-			],
-			"settings": {
-				"foreground": "#FF0000",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"scope": [
 				"source.json meta.structure.dictionary.json string.quoted.double.json",
 				"source.json meta.structure.dictionary.json punctuation.separator.dictionary.key-value.json"
 			],
 			"settings": {
 				"foreground": "#0F675B"
-			}
-		},
-		{
-			"scope": [
-				"source.python entity.name.function.decorator",
-				"source.python support.function.builtin",
-				"source.python meta.function-call.generic"
-			],
-			"settings": {
-				"foreground": "#D08770"
-			}
-		},
-		{
-			"scope": "source.python variable.parameter.function.language.special.self",
-			"settings": {
-				"foreground": "#0F675B",
-				"fontStyle": "italic"
 			}
 		},
 		{
@@ -1357,7 +1263,7 @@
 				"source.cpp meta.function-call"
 			],
 			"settings": {
-				"foreground": "#0F675B"
+				"foreground": "#FF0000"
 			}
 		},
 		{
@@ -1400,17 +1306,119 @@
 			}
 		},
 		{
-			"scope": "source.python keyword.control.import.python",
+			"scope": [
+				"source.python entity.name.function.decorator",
+				"source.python support.function.builtin"
+			],
 			"settings": {
-				"foreground": "#FF418E",
+				"foreground": "#D08770"
+			}
+		},
+		{
+			"scope": "source.python variable.parameter.function.language.special.self",
+			"settings": {
+				"foreground": "#0F675B",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"source.python entity.name.function.decorator",
+				"source.python meta.function.decorator support.type"
+			],
+			"settings": {
+				"foreground": "#D08770"
+			}
+		},
+		{
+			"scope": [
+				"source.python meta.function-call",
+				"source.python meta.function-call.generic"
+			],
+			"settings": {
+				"foreground": "#0F675B"
+			}
+		},
+		{
+			"scope": "source.python support.type",
+			"settings": {
+				"foreground": "#0F675B"
+			}
+		},
+		{
+			"scope": [
+				"source.python variable.parameter.function.language"
+			],
+			"settings": {
+				"foreground": "#D8DEE9"
+			}
+		},
+		{
+			"scope": [
+				"source.python meta.function.parameters variable.parameter.function.language.special.self"
+			],
+			"settings": {
+				"foreground": "#0F675B"
+			}
+		},
+		{
+			"scope": "keyword.control.import.python",
+			"settings": {
+				"foreground": "#d66666",
 				"fontStyle": "bold"
 			}
 		},
 		{
 			"scope": [
-				"source.python meta.function-call.generic.python",
-				"source.python meta.function-call.python",
-				"source.python meta.member.access.python",
+				"keyword.control.flow.python"
+			],
+			"settings": {
+				"foreground": "#FFE61C",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.separator.element.python"
+			],
+			"settings": {
+				"foreground": "#FFE61C",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"meta.embedded.block.python"
+			],
+			"settings": {
+				"foreground": "#34E2E2",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"string.quoted.docstring.multi.python"
+			],
+			"settings": {
+				"foreground": "#7FFF00",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.string.begin.python",
+				"punctuation.definition.string.end.python"
+			],
+			"settings": {
+				"foreground": "#999998",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"meta.function-call.generic.python",
+				"meta.function-call.python",
+				"meta.member.access.python",
 				"source.python meta.function-call.generic"
 			],
 			"settings": {
@@ -1420,8 +1428,16 @@
 		},
 		{
 			"scope": [
-				"source.python support.function.builtin.python",
-				"source.python meta.function-call.python",
+				"entity.name.function.python"
+			],
+			"settings": {
+				"foreground": "#FF418E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"support.function.builtin.python",
 				"source.python support.function.builtin"
 			],
 			"settings": {
@@ -1431,10 +1447,19 @@
 		},
 		{
 			"scope": [
-				"source.python variable.parameter.function-call.python",
-				"source.python meta.function-call.arguments.python",
-				"source.python meta.function-call.python",
-				"source.python meta.member.access.python",
+				"punctuation.definition.list.begin.python",
+				"punctuation.definition.list.end.python",
+				"punctuation.definition.arguments.begin.python",
+				"punctuation.definition.arguments.end.python"
+			],
+			"settings": {
+				"foreground": "#6C18D6",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"variable.parameter.function-call.python",
 				"source.python variable.parameter"
 			],
 			"settings": {
@@ -1442,16 +1467,8 @@
 			}
 		},
 		{
-			"scope": "source.python keyword.control.flow.python",
-			"settings": {
-				"foreground": "#FFE61C"
-			}
-		},
-		{
 			"scope": [
-				"source.python punctuation.definition.arguments.end.python",
-				"source.python meta.function-call.python",
-				"source.python meta.member.access.python"
+				"punctuation.definition.arguments.end.python"
 			],
 			"settings": {
 				"foreground": "#FF418E",
@@ -1459,11 +1476,8 @@
 		},
 		{
 			"scope": [
-				"source.python string.quoted.single.python",
-				"source.python meta.item-access.arguments.python",
-				"source.python meta.fstring.python",
-				"source.python meta.function-call.arguments.python",
-				"source.python meta.function-call.python"
+				"string.quoted.single.python",
+				"meta.fstring.python"
 			],
 			"settings": {
 				"foreground": "#A3FF8C",
@@ -1472,13 +1486,56 @@
 		},
 		{
 			"scope": [
+				"meta.function.parameters.python"
+			],
+			"settings": {
+				"foreground": "#fe8019",
+			}
+		},
+		{
+			"scope": [
+				"meta.item-access.arguments.python",
+				"meta.function-call.arguments.python"
+			],
+			"settings": {
+				"foreground": "#34E2E2",
+			}
+		},
+		{
+			"scope": [
+				"meta.indexed-name.python",
+				"meta.item-access.python"
+			],
+			"settings": {
+				"foreground": "#34E2E2",
+				"fontStyle": ""
+			},
+		},
+		{
+			"scope": [
+				"constant.other.caps.python"
+			],
+			"settings": {
+				"foreground": "#999998",
+				"fontStyle": "bold"
+			},
+		},
+		{
+			"scope": [
+				"variable.parameter.function.language.python"
+			],
+			"settings": {
+				"foreground": "#34E2E2",
+				"fontStyle": ""
+			},
+		},
+		{
+			"scope": [
 				"string.unquoted.argument.shell",
 				"meta.argument.shell",
 				"meta.statement.command.shell",
 				"meta.statement.shell",
-				"meta.embedded.block.shellscript",
-				"markup.fenced_code.block.markdown",
-				"text.html.markdown"
+				"meta.embedded.block.shellscript"
 			],
 			"settings": {
 				"foreground": "#FFFFFF",
@@ -1493,9 +1550,7 @@
 				"meta.statement.command.name.shell",
 				"meta.statement.command.shell",
 				"meta.statement.shell",
-				"meta.embedded.block.shellscript",
-				"markup.fenced_code.block.markdown",
-				"text.html.markdown"
+				"meta.embedded.block.shellscript"
 			],
 			"settings": {
 				"foreground": "#999988",
@@ -1508,9 +1563,7 @@
 				"string.unquoted.argument",
 				"meta.statement.command.shell",
 				"meta.statement.shell",
-				"meta.embedded.block.shellscript",
-				"markup.fenced_code.block.markdown",
-				"text.html.markdown"
+				"meta.embedded.block.shellscript"
 			],
 			"settings": {
 				"foreground": "#999988",
@@ -1581,16 +1634,6 @@
 		},
 		{
 			"scope": [
-				"source.python meta.indexed-name.python",
-				"source.python meta.item-access.python"
-			],
-			"settings": {
-				"foreground": "#34E2E2",
-				"fontStyle": ""
-			},
-		},
-		{
-			"scope": [
 				"meta.embedded.math.markdown",
 				"markup.math.inline.markdown"
 			],
@@ -1635,6 +1678,223 @@
 			"settings": {
 				"foreground": "#3465a4",
 				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"source.c meta.preprocessor.include",
+				"source.cpp meta.preprocessor.include"
+			],
+			"settings": {
+				"foreground": "#34E2E2",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"source.c string.quoted.other.lt-gt.include",
+				"source.cpp string.quoted.other.lt-gt.include"
+			],
+			"settings": {
+				"foreground": "#34E2E2"
+			}
+		},
+		{
+			"scope": [
+				"source.cpp keyword.control.directive.conditional",
+				"source.cpp punctuation.definition.directive",
+				"source.c keyword.control.directive.conditional",
+				"source.c punctuation.definition.directive"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"storage.type.built-in.primitive.c"
+			],
+			"settings": {
+				"foreground": "#3465a4",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function.c",
+				"meta.function.definition.parameters.c",
+				"meta.function.c"
+			],
+			"settings": {
+				"foreground": "#e2e2b2",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"meta.function-call.c"
+			],
+			"settings": {
+				"foreground": "#aaaaaa",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"string.quoted.other.lt-gt.include.c"
+			],
+			"settings": {
+				"foreground": "#fe8019",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"string.quoted.double.c"
+			],
+			"settings": {
+				"foreground": "#fe8019",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.string.begin.c",
+				"punctuation.definition.string.end.c"
+			],
+			"settings": {
+				"foreground": "#fe8019",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"variable.parameter.probably.c",
+				"meta.function.definition.parameters.c",
+				"meta.function.c"
+			],
+			"settings": {
+				"foreground": "#D8DEE9",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"meta.block.c",
+				"meta.embedded.block.c"
+			],
+			"settings": {
+				"foreground": "#7ff7f7",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"keyword.control.c"
+			],
+			"settings": {
+				"foreground": "#ffadff",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"source.cpp keyword.control.directive",
+				"source.cpp punctuation.definition.directive",
+				"source.c keyword.control.directive",
+				"source.c punctuation.definition.directive",
+				"keyword.control.directive.include.c",
+				"meta.preprocessor.include.c",
+				"source.c keyword",
+				"punctuation.definition.directive.c"
+			],
+			"settings": {
+				"foreground": "#d66666",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"comment.line.double-slash.c",
+				"punctuation.definition.comment.c"
+			],
+			"settings": {
+				"foreground": "#77a845",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"punctuation.section.arguments.begin.bracket.round.c",
+				"keyword.operator.assignment.c",
+				"keyword.operator.c",
+				"keyword.operator.comparison.c",
+				"keyword.operator.bitwise.shift.c"
+			],
+			"settings": {
+				"foreground": "#ffffff",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"punctuation.section.block.end.bracket.curly.c",
+				"punctuation.section.block.begin.bracket.curly.c"
+			],
+			"settings": {
+				"foreground": "#FFE61C",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"constant.numeric.decimal.point.c",
+				"constant.numeric.decimal.c"
+			],
+			"settings": {
+				"foreground": "#FFE61C",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"meta.parens.block.c"
+			],
+			"settings": {
+				"foreground": "#7ff7f7",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"meta.preprocessor.macro.c"
+			],
+			"settings": {
+				"foreground": "#c7c400",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "punctuation.separator.pointer-access.c",
+			"settings": {
+				"foreground": "#F1ADFF"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.section.parens.begin.bracket.round.c",
+				"punctuation.section.parens.end.bracket.round.c"
+			],
+			"settings": {
+				"foreground": "#F1ADFF",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "punctuation.terminator.statement.c",
+			"settings": {
+				"foreground": "#F1ADFF"
 			}
 		}
 	]
