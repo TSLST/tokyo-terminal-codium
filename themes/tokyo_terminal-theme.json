@@ -1686,7 +1686,7 @@
 				"source.cpp meta.preprocessor.include"
 			],
 			"settings": {
-				"foreground": "#34E2E2",
+				"foreground": "#D66666",
 				"fontStyle": "bold"
 			}
 		},
@@ -1716,13 +1716,21 @@
 				"storage.type.built-in.primitive.c"
 			],
 			"settings": {
-				"foreground": "#3465a4",
+				"foreground": "#0F675B",
 				"fontStyle": "bold"
 			}
 		},
 		{
 			"scope": [
-				"entity.name.function.c",
+				"entity.name.function.c"
+			],
+			"settings": {
+				"foreground": "#FF418E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
 				"meta.function.definition.parameters.c",
 				"meta.function.c"
 			],
@@ -1736,7 +1744,7 @@
 				"meta.function-call.c"
 			],
 			"settings": {
-				"foreground": "#aaaaaa",
+				"foreground": "#fe8019",
 				"fontStyle": ""
 			}
 		},
@@ -1745,7 +1753,7 @@
 				"string.quoted.other.lt-gt.include.c"
 			],
 			"settings": {
-				"foreground": "#fe8019",
+				"foreground": "#34E2E2",
 				"fontStyle": ""
 			}
 		},
@@ -1754,7 +1762,7 @@
 				"string.quoted.double.c"
 			],
 			"settings": {
-				"foreground": "#fe8019",
+				"foreground": "#A3FF8C",
 				"fontStyle": ""
 			}
 		},
@@ -1764,7 +1772,7 @@
 				"punctuation.definition.string.end.c"
 			],
 			"settings": {
-				"foreground": "#fe8019",
+				"foreground": "#999998",
 				"fontStyle": ""
 			}
 		},
@@ -1775,7 +1783,7 @@
 				"meta.function.c"
 			],
 			"settings": {
-				"foreground": "#D8DEE9",
+				"foreground": "#34E2E2",
 				"fontStyle": ""
 			}
 		},
@@ -1794,8 +1802,8 @@
 				"keyword.control.c"
 			],
 			"settings": {
-				"foreground": "#ffadff",
-				"fontStyle": ""
+				"foreground": "#FFE61C",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -1816,11 +1824,19 @@
 		},
 		{
 			"scope": [
-				"comment.line.double-slash.c",
+				"comment.line.double-slash.c"
+			],
+			"settings": {
+				"foreground": "#7fff00",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
 				"punctuation.definition.comment.c"
 			],
 			"settings": {
-				"foreground": "#77a845",
+				"foreground": "#999998",
 				"fontStyle": ""
 			}
 		},
@@ -1830,10 +1846,11 @@
 				"keyword.operator.assignment.c",
 				"keyword.operator.c",
 				"keyword.operator.comparison.c",
+				"keyword.operator.logical.c",
 				"keyword.operator.bitwise.shift.c"
 			],
 			"settings": {
-				"foreground": "#ffffff",
+				"foreground": "#ECEFF4",
 				"fontStyle": ""
 			}
 		},
@@ -1853,7 +1870,7 @@
 				"constant.numeric.decimal.c"
 			],
 			"settings": {
-				"foreground": "#FFE61C",
+				"foreground": "#F1ADFF",
 				"fontStyle": ""
 			}
 		},
