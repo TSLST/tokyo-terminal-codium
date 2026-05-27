@@ -1911,7 +1911,7 @@
 		{
 			"scope": "punctuation.terminator.statement.c",
 			"settings": {
-				"foreground": "#F1ADFF"
+				"foreground": "#999998"
 			}
 		}
 	]
