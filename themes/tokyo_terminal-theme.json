@@ -1452,6 +1452,33 @@
 			}
 		},
 		{
+			"scope": [
+				"markup.raw.block.markdown"
+			],
+			"settings": {
+				"foreground": "#A3FF8C",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"meta.paragraph.markdown"
+			],
+			"settings": {
+				"foreground": "#34E2E2",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"constant.character.escape.markdown"
+			],
+			"settings": {
+				"foreground": "#999998",
+				"fontStyle": ""
+			}
+		},
+		{
 			"scope": "markup.inline.raw",
 			"settings": {
 				"foreground": "#34E2E2"
@@ -1602,7 +1629,6 @@
 		},
 		{
 			"scope": [
-				"meta.paragraph.markdown",
 				"text.html.markdown"
 			],
 			"settings": {
