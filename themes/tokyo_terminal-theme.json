@@ -1444,20 +1444,22 @@
 		},
 		{
 			"scope": [
-				"text.html.markdown"
-			],
-			"settings": {
-				"foreground": "#3465a4",
-				"fontStyle": ""
-			}
-		},
-		{
-			"scope": [
 				"markup.raw.block.markdown"
 			],
 			"settings": {
 				"foreground": "#A3FF8C",
 				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"meta.tag.inline.br.void.html entity.name.tag.html",
+				"meta.tag.inline.br.void.html punctuation.definition.tag.begin.html",
+				"meta.tag.inline.br.void.html punctuation.definition.tag.end.html"
+			],
+			"settings": {
+				"foreground": "#d66666",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -1471,10 +1473,123 @@
 		},
 		{
 			"scope": [
-				"constant.character.escape.markdown"
+				"markup.italic.markdown"
+			],
+			"settings": {
+				"foreground": "#0F675B",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.bold.markdown punctuation",
+				"punctuation.definition.italic.markdown punctuation"
 			],
 			"settings": {
 				"foreground": "#999998",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.list.begin.markdown punctuation",
+				""
+			],
+			"settings": {
+				"foreground": "#FF418E",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"constant.character.escape.markdown",
+				"source meta.embedded.math.markdown punctuation.definition.function.math.tex punctuation"
+			],
+			"settings": {
+				"foreground": "#999998",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"punctuation.line.separator.math.tex punctuation",
+				"line.separator.math.tex punctuation"
+			],
+			"settings": {
+				"foreground": "#d66666",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"meta.embedded.math.markdown entity.name.function",
+				"entity.name.function.math.tex",
+				"storage.type.function.math.tex"
+			],
+			"settings": {
+				"foreground": "#FF418E"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.comment.math.tex"
+			],
+			"settings": {
+				"foreground": "#999998",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"comment.line.math.tex"
+			],
+			"settings": {
+				"foreground": "#3465A4",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.math.begin.markdown",
+				"punctuation.definition.math.end.markdown"
+			],
+			"settings": {
+				"foreground": "#F1ADFF",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"punctuation.math.begin.bracket.curly",
+				"punctuation.math.end.bracket.curly",
+				"punctuation.math.begin.bracket.round",
+				"punctuation.math.end.bracket.round",
+				"punctuation.definition.arguments.begin.math.tex",
+				"punctuation.definition.arguments.end.math.tex"
+			],
+			"settings": {
+				"foreground": "#F1ADFF",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"meta.function.math.tex"
+			],
+			"settings": {
+				"foreground": "#fe8019",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"meta.embedded.math.markdown",
+				"markup.math.inline.markdown",
+				"constant.numeric.math.tex",
+				"punctuation.math.operator.latex"
+			],
+			"settings": {
+				"foreground": "#7FFF00",
 				"fontStyle": ""
 			}
 		},
@@ -1502,12 +1617,6 @@
 			"scope": "markup.list",
 			"settings": {
 				"foreground": "#34E2E2"
-			}
-		},
-		{
-			"scope": "text.html.markdown markup.underline.link",
-			"settings": {
-				"fontStyle": "underline"
 			}
 		},
 		{
@@ -1549,11 +1658,21 @@
 		},
 		{
 			"scope": [
-				"text.html.markdown punctuation.definition.constant",
-				"text.html.markdown punctuation.definition.string"
+				"text.html.markdown markup.underline.link"
 			],
 			"settings": {
-				"foreground": "#0F675B"
+				"foreground": "#3465A4",
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"scope": [
+				"text.html.markdown punctuation.definition.constant",
+				"text.html.markdown punctuation.definition.string",
+				"text.html.markdown punctuation.definition.function.math.tex"
+			],
+			"settings": {
+				"foreground": "#999998"
 			}
 		},
 		{
@@ -1633,16 +1752,6 @@
 			],
 			"settings": {
 				"foreground": "#34E2E2",
-				"fontStyle": ""
-			}
-		},
-		{
-			"scope": [
-				"meta.embedded.math.markdown",
-				"markup.math.inline.markdown"
-			],
-			"settings": {
-				"foreground": "#7fff00",
 				"fontStyle": ""
 			}
 		},
