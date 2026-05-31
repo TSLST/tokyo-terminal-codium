@@ -1,9 +1,9 @@
 {
-  "name": "tokyo_terminal-theme",
-  "icon": "images/TSLST.png",
-  "displayName": "Tokyo Terminal Theme",
+  "name": "tokyo_terminal-codium",
+  "icon": "images/tokyo_terminal-jack.png",
+  "displayName": "Tokyo Terminal",
   "description": "Retro futurist 80s terminal, synthwave, Tokyo neons theme",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.60.0"
   },
@@ -12,7 +12,7 @@
     "themes": [{
       "label": "Tokyo Terminal",
       "uiTheme": "vs-dark",
-      "path": "./themes/tokyo_terminal-theme.json"
+      "path": "./themes/tokyo_terminal-codium.json"
     }]
   }
 }
