@@ -19,3 +19,5 @@ Set up the colors for markdown format as it is the most used format for my text 
 Updated my languages to the usual Tokyo Terminal coding scheme. I mostly use Python and C/C++ these days so only focus on editing that.
 - **2026-05-28 T 19:10**:<br>
 Update KateX color scheme so that it matches the usual coding colors. I found I had to keep numbers in green for better visual appearance, that is usually matched with comments. But cyan was not contrasting the KaTeX sections from the plain text. So it is... I also made the back return and linebreak signs barely noticeable.
+- **2026-06-01 T 00:24**:<br>
+First prod and publication ongoing. Updated all documentation files.
