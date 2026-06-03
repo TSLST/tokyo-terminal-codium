@@ -21,3 +21,5 @@ Updated my languages to the usual Tokyo Terminal coding scheme. I mostly use Pyt
 Update KateX color scheme so that it matches the usual coding colors. I found I had to keep numbers in green for better visual appearance, that is usually matched with comments. But cyan was not contrasting the KaTeX sections from the plain text. So it is... I also made the back return and linebreak signs barely noticeable.
 - **2026-06-01 T 00:24**:<br>
 First prod and publication ongoing. Updated all documentation files.
+- **2026-06-02 T 20:07**:<br>
+Only just noticed the cpp tokens are not all up-to-date. I will mostly copy the c tokens as I dig a bit deeper into this issue. I also revised shell and yaml for more both generic visual appearance and specific outlining in block of texts.

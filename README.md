@@ -41,21 +41,21 @@ Designed @ 神縁 (2026)
 
 ### Long README Introduction
 
-**Welcome to *tokyo_terminal***, a VSCode theme that transports your editor to a neon-lit japanese terminal circa 1984.
+**Welcome to *tokyo-terminal***, a VSCode theme that transports your editor to a neon-lit japanese terminal circa 1984.
 This isn’t just a color scheme; it’s a high-contrast, high-energy workspace for developers who crave **clarity and visual accentuation**.
 
 #### Design Philosophy
 
-Inspired by the **hypnotic glow of vintage CRTs**, the **hyper-saturated dreams of synthwave**, *vibrancy of outrun nostalgia*, tokyo_terminal is a love letter to the 80s as I reimagined, restylized and modernized them.
+Inspired by the **hypnotic glow of vintage CRTs**, the **hyper-saturated dreams of synthwave**, *vibrancy of outrun nostalgia*, tokyo-terminal is a love letter to the 80s as I reimagined, restylized and modernized them.
 Think of **synths, oversaturated consoles**, a world of outrun sunsets, VHS static, and cyber alleyways. With a nod to Taki Ono’s neon design photography, this theme merges retro-futurism with modern clarity.
 
-Here for VSCodium, *tokyo_terminal* delivers:
+Here for VSCodium, *tokyo-terminal* delivers:
 - **Bold readability**: Crisp **cyan (#34e2e2)** syntax on deep **purple (#2a2436)** and **near-black (#060507)** backgrounds.
 - **Electric accents**: **Hot pink (#FF418E)**, **sunset orange (#FE8019)**, **gold (#FFE61C)**, and **deep violet (#6C18D6)** for keywords, functions, and UI highlights.
 - **Retro-futuristic contrast**: Designed to reduce eye strain while keeping your code *visually alive*—like hacking a mainframe in a cybercafé circa 1984.
 - **Minimalist efficiency** grit meets glamour.
 
-For developers nostalgic of the future. For those who code like the future depends on it (Because it does).
+For developers/writers nostalgic of the future. For those who code like the future depends on it (Because it does).
 
 -----------------------------------------
 ## Palette
@@ -87,13 +87,12 @@ For developers nostalgic of the future. For those who code like the future depen
 ## ToDo
 -----------------------------------------
 
-- [*] Publishing
-- [ ] Shell colors review
-- [ ] Yaml tokens gathering
+- [x] Publishing
+- [ ] cpp colors review
 - [ ] VBA .cls files?
 - [ ] Other languages?
 - [ ] Find KaTeX devs and ask them to add a align tag resetter
-- [ ] A review of CSS, it is probably alreight already but not checked
+- [ ] A review of CSS, it is probably alright already but not checked
 <br><br>
 - No support for html, java, js as long as I do not use them
 

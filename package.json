@@ -1,6 +1,7 @@
 {
-  "name": "tokyo_terminal-codium",
-  "icon": "images/tokyo_terminal-jack.png",
+  "name": "tokyo-terminal-codium",
+  "publisher": "TSLST",
+  "icon": "images/tokyo-terminal-jack.png",
   "displayName": "Tokyo Terminal",
   "description": "Retro futurist 80s terminal, synthwave, Tokyo neons theme",
   "version": "1.0.0",
@@ -8,11 +9,17 @@
     "vscode": "^1.60.0"
   },
   "categories": ["Themes"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TSLST/tokyo-terminal-codium"
+  },
   "contributes": {
-    "themes": [{
-      "label": "Tokyo Terminal",
-      "uiTheme": "vs-dark",
-      "path": "./themes/tokyo_terminal-codium.json"
-    }]
+    "themes": [
+      {
+        "label": "Tokyo Terminal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tokyo-terminal-codium.json"
+      }
+    ]
   }
 }

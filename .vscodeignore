@@ -1,0 +1,6 @@
+**/*.bak
+**/.git
+**/.gitignore
+**/node_modules
+**/.vscode
+**/README_draft*
