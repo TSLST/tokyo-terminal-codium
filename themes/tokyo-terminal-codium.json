@@ -2067,7 +2067,7 @@
 				"meta.block.c"
 			],
 			"settings": {
-				"foreground": "#7ff7f7",
+				"foreground": "#9feeee",
 				"fontStyle": ""
 			}
 		},
@@ -2289,6 +2289,178 @@
 			"settings": {
 				"foreground": "#7FFF00",
 				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"text.html.derivative"
+			],
+			"settings": {
+				"foreground": "#34E2E2",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"entity.other.attribute-name.html"
+			],
+			"settings": {
+				"foreground": "#FFE61C",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope":[
+				"meta.embedded.block.html entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#FF418E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope":[
+				"meta.attribute.class.html string.quoted.double.html"
+			],
+			"settings": {
+				"foreground": "#fe8019",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"meta.attribute.event-handler.click.html storage.type.js"
+			],
+			"settings": {
+				"foreground": "#0F675B",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope":[
+				"meta.embedded.block.html constant.other.color.rgb-value",
+				"meta.embedded.block.html constant.other.color.rgb-value punctuation"
+			],
+			"settings": {
+				"foreground": "#0F675B",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"meta.embedded.block.html support.constant.property-value.css",
+				"meta.embedded.block.html support.constant"
+			],
+			"settings": {
+				"foreground": "#ECEFF4",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"meta.embedded.block.html support.type.property-name.css"
+			],
+			"settings": {
+				"foreground": "#999998",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"meta.embedded.block.html keyword.other.unit.rem.css",
+				"meta.embedded.block.html keyword.other.unit.px.css",
+				"meta.embedded.block.html keyword.other.unit.em.css",
+				"meta.embedded.block.html keyword.other.unit.fr.css",
+				"meta.embedded.block.html keyword.other.unit.s.css"
+			],
+			"settings": {
+				"foreground": "#FFE61C",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"meta.embedded.block.html entity.name.tag.css"
+			],
+			"settings": {
+				"foreground": "#c7c400",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"text.html.derivative variable.other.constant.js",
+				"text.html.derivative variable.other.object.js",
+				"text.html.derivative variable.other.readwrite.js"
+			],
+			"settings": {
+				"foreground": "#9feeee",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"text.html.derivative variable.other.object.property.js",
+				"text.html.derivative variable.other.property.js",
+				"text.html.derivative entity.name.function.js"
+			],
+			"settings": {
+				"foreground": "#FF418E",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"text.html.derivative meta.brace.round.js",
+				"text.html.derivative variable.language.this.js"
+			],
+			"settings": {
+				"foreground": "#FFE61C",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"text.html.derivative keyword.operator.assignment.js",
+				"text.html.derivative storage.type.function.arrow.js"
+			],
+			"settings": {
+				"foreground": "#ECEFF4",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"text.html.derivative meta.tag.inline.strong.start.html entity.name.tag",
+				"text.html.derivative meta.tag.inline.strong.start.html punctuation.definition.tag",
+				"text.html.derivative meta.tag.inline.strong.end.html entity.name.tag",
+				"text.html.derivative meta.tag.inline.strong.end.html punctuation.definition.tag"
+			],
+			"settings": {
+				"foreground": "#6C18D6",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope":[
+				"text.html.derivative meta.tag.inline.em.start.html entity.name.tag",
+				"text.html.derivative meta.tag.inline.em.start.html punctuation.definition.tag",
+				"text.html.derivative meta.tag.inline.em.end.html entity.name.tag",
+				"text.html.derivative meta.tag.inline.em.end.html punctuation.definition.tag"
+			],
+			"settings": {
+				"foreground": "#0F675B",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope":[
+				"text.html.derivative punctuation.terminator.statement.js",
+				"text.html.derivative punctuation.terminator.rule.css"
+			],
+			"settings": {
+				"foreground": "#2a2436",
+				"fontStyle": "bold"
 			}
 		}
 	]
