@@ -23,3 +23,9 @@ Update KateX color scheme so that it matches the usual coding colors. I found I 
 First prod and publication ongoing. Updated all documentation files.
 - **2026-06-02 T 20:07**:<br>
 Only just noticed the cpp tokens are not all up-to-date. I will mostly copy the c tokens as I dig a bit deeper into this issue. I also revised shell and yaml for more both generic visual appearance and specific outlining in block of texts.
+- **2026-06-04 T 01:48**:<br>
+Experimenting with my old VBA .cls files. Using serkonda7 VBA syntax highlight extension that offers token for VBA and VB6 that are enough to emulate the old IDE look.
+- **2026-06-07 T 18:08**:<br>
+I had to edit an HTML file and took the opportunity to adapt the colour scheme to its language. Plus a lot of minor tweaks here and there.
+- **2026-06-07 T 18:08**:<br>
+One of my .tex documents needed editing so a few tokens got inserted at the bottom. The limit is passed now I have too many tokens for VS Codium to display hex colours properly everywhere. They are all working fine though and the scheme is nicely defined now.

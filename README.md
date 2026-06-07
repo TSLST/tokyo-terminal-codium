@@ -3,7 +3,7 @@ Type: Doc
 Use: Readme docs for Tokyo Terminal them, VS Codium/Code version.
 Tags: #documentation #theme
 Creation: 2026-01-15
-Update: 2026-05-31
+Update: 2026-06-07
 Contributors: 神縁
 Links:
 - [[theme]]
@@ -62,26 +62,24 @@ For developers/writers nostalgic of the future. For those who code like the futu
 -----------------------------------------
 
 - Black: "#060507" Darkest Background for text and coding
-- Magenta: "#2a2436" Lighter Background for teminals and UI
+- Magenta: "#2a2436" Lighter Background for teminals and UI, also backreturn signs semi-hidden
 - BrightCyan: "#34e2e2" Main text
 - Cyan: "#0f675b" Types
-- Red: "#ff418e" Accents
-- BrightYellow: "#ffe61c"
-- Yellow: "#fe8019"
+- Red: "#ff418e" Accents and function names
+- BrightYellow: "#ffe61c" Keywords
+- Yellow: "#fe8019" FDunction calls
 - BrightMagenta: "#6c18d6" Activity accent
 - BrightGreen: "#A3FF8C" Strings
-- Green: "#7fff00" Comments
-- BrightRed: "#FF3B3B"
+- Green: "#7fff00" Comments, used for math symbols in KaTeX
+- BrightRed: "#FF3B3B" Errors and false
 - Blue: "#3465a4" Links
 - BrightBlue: "#181efd" Rarely used super accent
-- BrightWhite: "#ECEFF4"
+- BrightWhite: "#ECEFF4" Plaintext
 - BrightBlack: "#999988"
-- White: "#ECEFF4"
-+ oldRed: "#d66666"
-+ pink: "#F1ADFF"
+- White: "#ACEEEE"
++ oldRed: "#d66666" Loaders
++ pink: "#F1ADFF" decimal numbers in code
 + gold: "#c7c400"
-+ BrightBrightCyan: "#7ff7f7"
-+ BrightChristian: "#D8DEE9"
 
 -----------------------------------------
 ## ToDo
@@ -89,12 +87,11 @@ For developers/writers nostalgic of the future. For those who code like the futu
 
 - [x] Publishing
 - [ ] cpp colors review
-- [ ] VBA .cls files?
-- [ ] Other languages?
+- [x] VBA .cls
 - [ ] Find KaTeX devs and ask them to add a align tag resetter
-- [ ] A review of CSS, it is probably alright already but not checked
+- [ ] A review of CSS, it is probably alright already but not checked. HTML tokens could be reused.
 <br><br>
-- No support for html, java, js as long as I do not use them
+- No real support yet for java, js as long as I do not use them. They should be close enough for now.
 
 -----------------------------------------
 ## Screenshots
