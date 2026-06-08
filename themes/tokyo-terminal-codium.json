@@ -1036,12 +1036,49 @@
 			}
 		},
 		{
-			"scope": [
-				"source.json meta.structure.dictionary.json string.quoted.double.json",
-				"source.json meta.structure.dictionary.json punctuation.separator.dictionary.key-value.json"
+			"scope":[
+				"support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#0F675B"
+				"foreground": "#E3E9AE"
+			}
+		},
+		{
+			"scope": [
+				"meta.structure.dictionary.json string.quoted.double.json",
+			],
+			"settings": {
+				"foreground": "#ECEFF4"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.dictionary.begin.json",
+			],
+			"settings": {
+				"foreground": "#ffe61c"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.support.type.property-name.begin.json",
+				"punctuation.support.type.property-name.end.json",
+				"punctuation.definition.string.begin.json",
+				"punctuation.definition.string.end.json"
+			],
+			"settings": {
+				"foreground": "#999998"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.separator.dictionary.key-value.json",
+				"punctuation.separator.array.json",
+				"punctuation.definition.array.begin.json",
+				"punctuation.definition.array.end.json"
+			],
+			"settings": {
+				"foreground": "#ECEFF4"
 			}
 		},
 		{
@@ -1193,6 +1230,17 @@
 			}
 		},
 		{
+			"scope": [
+				"source.yaml entity.name.tag",
+				"entity.name.tag.yaml",
+				"string.unquoted.plain.out.yaml"
+			],
+			"settings": {
+				"foreground": "#e3e9ae",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"scope":[
 				"punctuation.definition.sequence.begin.yaml",
 				"punctuation.definition.sequence.end.yaml"
@@ -1207,7 +1255,7 @@
 				"comment.line.number-sign.yaml"
 			],
 			"settings": {
-				"foreground": "#FF418E"
+				"foreground": "#999998"
 			}
 		},
 		{
@@ -1221,6 +1269,49 @@
 		},
 		{
 			"scope":[
+				"string.quoted.single.yaml",
+				"string.quoted.double.yaml"
+			],
+			"settings": {
+				"foreground": "#A3FF8C"
+			}
+		},
+		{
+			"scope":[
+				"entity.name.type.anchor.yaml"
+			],
+			"settings": {
+				"foreground": "#ff418e",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope":[
+				"variable.other.alias.yaml"
+			],
+			"settings": {
+				"foreground": "#fe8019"
+			}
+		},
+		{
+			"scope":[
+				"storage.type.tag-handle.yaml"
+			],
+			"settings": {
+				"foreground": "#0f675b",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope":[
+				"constant.numeric.integer.yaml"
+			],
+			"settings": {
+				"foreground": "#F1ADFF"
+			}
+		},
+		{
+			"scope":[
 				"constant.language.boolean.yaml"
 			],
 			"settings": {
@@ -1229,24 +1320,7 @@
 		},
 		{
 			"scope": [
-				"source.yaml entity.name.tag",
-				"entity.name.tag.yaml",
-				"string.unquoted.plain.out.yaml",
-				"meta.embedded.block.frontmatter",
-				"text.html.markdown",
-				"foreground entity.name.tag"
-			],
-			"settings": {
-				"foreground": "#999988",
-				"fontStyle": ""
-			}
-		},
-		{
-			"scope": [
-				"string.unquoted.plain.out.yaml",
-				"meta.embedded.block.frontmatter",
-				"text.html.markdown",
-				"foreground entity.name.tag"
+				"string.unquoted.plain.out.yaml"
 			],
 			"settings": {
 				"foreground": "#ECEFF4",
@@ -1255,10 +1329,38 @@
 		},
 		{
 			"scope": [
-				"markup.table.markdown"
+				"string.unquoted.block.yaml"
 			],
 			"settings": {
 				"foreground": "#aceeee",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"keyword.control.flow.block-scalar.literal.yaml"
+			],
+			"settings": {
+				"foreground": "#FFE61C",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.yaml",
+				"constant.language.null.yaml"
+			],
+			"settings": {
+				"foreground": "#FFE61C",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"keyword.control.flow.block-scalar.folded.yaml"
+			],
+			"settings": {
+				"foreground": "#2a2436",
 				"fontStyle": ""
 			}
 		},
@@ -1532,6 +1634,15 @@
 		},
 		{
 			"scope": [
+				"markup.table.markdown"
+			],
+			"settings": {
+				"foreground": "#aceeee",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
 				"text.html.markdown markup.fenced_code.block"
 			],
 			"settings": {
@@ -1576,7 +1687,7 @@
 				"markup.raw.block.markdown"
 			],
 			"settings": {
-				"foreground": "#A3FF8C",
+				"foreground": "#aceeee",
 				"fontStyle": ""
 			}
 		},
@@ -2180,7 +2291,7 @@
 				"meta.preprocessor.macro.c"
 			],
 			"settings": {
-				"foreground": "#c7c400",
+				"foreground": "#E3E9AE",
 				"fontStyle": ""
 			}
 		},
@@ -2312,7 +2423,7 @@
 				"meta.embedded.block.html entity.name.tag.css"
 			],
 			"settings": {
-				"foreground": "#c7c400",
+				"foreground": "#E3E9AE",
 				"fontStyle": ""
 			}
 		},

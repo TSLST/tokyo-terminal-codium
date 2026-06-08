@@ -3,10 +3,9 @@ Type: Doc
 Use: Readme docs for Tokyo Terminal them, VS Codium/Code version.
 Tags: #documentation #theme
 Creation: 2026-01-15
-Update: 2026-06-07
+Update: 2026-06-08
 Contributors: 神縁
-Links:
-- [[theme]]
+Links: [[theme]]
 ---
 
 # Tokyo Terminal
@@ -61,25 +60,27 @@ For developers/writers nostalgic of the future. For those who code like the futu
 ## Palette
 -----------------------------------------
 
-- Black: "#060507" Darkest Background for text and coding
-- Magenta: "#2a2436" Lighter Background for teminals and UI, also backreturn signs semi-hidden
-- BrightCyan: "#34e2e2" Main text
-- Cyan: "#0f675b" Types
-- Red: "#ff418e" Accents and function names
-- BrightYellow: "#ffe61c" Keywords
-- Yellow: "#fe8019" FDunction calls
-- BrightMagenta: "#6c18d6" Activity accent
-- BrightGreen: "#A3FF8C" Strings
-- Green: "#7fff00" Comments, used for math symbols in KaTeX
-- BrightRed: "#FF3B3B" Errors and false
-- Blue: "#3465a4" Links
-- BrightBlue: "#181efd" Rarely used super accent
-- BrightWhite: "#ECEFF4" Plaintext
-- BrightBlack: "#999988"
-- White: "#ACEEEE"
-+ oldRed: "#d66666" Loaders
-+ pink: "#F1ADFF" decimal numbers in code
-+ gold: "#c7c400"
+| Color           | Hex       | Usage                                                                       |
+|---              |---        |---                                                                          |
+| Black           | `#060507` | Darkest Background for text and coding                                      |
+| Magenta         | `#2a2436` | Lighter Background for teminals and UI, also semi-hidden backreturn signs   |
+| BrightCyan      | `#34e2e2` | Main text                                                                   |
+| Cyan            | `#0f675b` | Types                                                                       |
+| Red             | `#ff418e` | Accents and function names                                                  |
+| BrightYellow    | `#ffe61c` | Keywords                                                                    |
+| Yellow          | `#fe8019` | FDunction calls                                                             |
+| BrightMagenta   | `#6c18d6` | Activity accent                                                             |
+| BrightGreen     | `#A3FF8C` | Strings                                                                     |
+| Green           | `#7fff00` | Comments, math symbols in KaTeX                                             |
+| BrightRed       | `#FF3B3B` | Errors and Bool = false                                                     |
+| Blue            | `#3465a4` | Links                                                                       |
+| BrightBlue      | `#181efd` | Rarely used super accent, comments in yaml, hashtags                        |
+| BrightWhite     | `#ECEFF4` | Plaintext, code symbols                                                     |
+| BrightBlack     | `#999988` | Comments in some languages, yaml keys, formatting signs                     |
+| White           | `#ACEEEE` |                                                                             |
+| +oldRed         | `#d66666` | Loaders                                                                     |
+| +Pink           | `#F1ADFF` | Decimal numbers in code, unresolved boolean                                 |
+| +Gold           | `#E3E9AE` | Property names in yaml & json files                                         |
 
 -----------------------------------------
 ## ToDo
@@ -87,9 +88,12 @@ For developers/writers nostalgic of the future. For those who code like the futu
 
 - [x] Publishing
 - [ ] cpp colors review
-- [x] VBA .cls
-- [ ] Find KaTeX devs and ask them to add a align tag resetter
-- [ ] A review of CSS, it is probably alright already but not checked. HTML tokens could be reused.
+- [x] VBA .cls via serkonda7 VBA syntax 
+- [ ] Find KaTeX devs and ask them to add an align tag resetter
+- [ ] A review of CSS and bash tokens, they are probably alright already but not checked. HTML tokens could be reused.
+- [ ] Port to Firefox
+- [ ] Port to Chrome
+- [ ] Publish Obsidian version
 <br><br>
 - No real support yet for java, js as long as I do not use them. They should be close enough for now.
 
@@ -104,4 +108,4 @@ For developers/writers nostalgic of the future. For those who code like the futu
 ---
 **Made by 神縁 in 2026 under MIT License**
 [GitHub](https://github.com/TSLST)
-[Mastodon](https://mastodon.social/@TSLST) I don't like Mastodon actually
+[Mastodon](https://mastodon.social/@TSLST) Even though I don't actually like Mastodon
