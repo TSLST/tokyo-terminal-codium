@@ -90,8 +90,9 @@ For developers/writers nostalgic of the future. For those who code like the futu
 - [ ] cpp colors review
 - [x] VBA .cls via serkonda7 VBA syntax 
 - [ ] Find KaTeX devs and ask them to add an align tag resetter
-- [ ] A review of CSS and bash tokens, they are probably alright already but not checked. HTML tokens could be reused.
-- [ ] Port to Firefox
+- [x] A review of CSS. HTML tokens could be reused.
+- [ ] A review of bash tokens, they are probably alright already but not checked.
+- [ ] Review port to Firefox
 - [ ] Port to Chrome
 - [ ] Publish Obsidian version
 <br><br>

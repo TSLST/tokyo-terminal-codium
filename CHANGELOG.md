@@ -30,3 +30,5 @@ I had to edit an HTML file and took the opportunity to adapt the colour scheme t
 One of my .tex documents needed editing so a few tokens got inserted at the bottom. The limit is passed now I have too many tokens for VS Codium to display hex colours properly everywhere. They are all working fine though and the scheme is nicely defined now.
 - **2026-06-08 T 11:30**:<br>
 Reworked yaml & json slightly for better coherence. Minor tweaks here and there.
+- **2026-06-08 T 11:30**:<br>
+Reworked CSS tokens as I was already pulled in the task. Not sure about the color of `entity.name.tag.css`, the orange colored keywords are not alwasy easy to decide. That will do for now.
