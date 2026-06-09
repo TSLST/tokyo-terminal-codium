@@ -3,7 +3,7 @@ Type: Doc
 Use: Readme docs for Tokyo Terminal them, VS Codium/Code version.
 Tags: #documentation #theme
 Creation: 2026-01-15
-Update: 2026-06-08
+Update: 2026-06-09
 Contributors: 神縁
 Links: [[theme]]
 ---
@@ -63,7 +63,7 @@ For developers/writers nostalgic of the future. For those who code like the futu
 | Color           | Hex       | Usage                                                                       |
 |---              |---        |---                                                                          |
 | Black           | `#060507` | Darkest Background for text and coding                                      |
-| Magenta         | `#2a2436` | Lighter Background for teminals and UI, also semi-hidden backreturn signs   |
+| Magenta         | `#2a2436` | Lighter Background for teminals and UI, also semi-hidden backreturn signs and null   |
 | BrightCyan      | `#34e2e2` | Main text                                                                   |
 | Cyan            | `#0f675b` | Types                                                                       |
 | Red             | `#ff418e` | Accents and function names                                                  |
@@ -79,7 +79,7 @@ For developers/writers nostalgic of the future. For those who code like the futu
 | BrightBlack     | `#999988` | Comments in some languages, yaml keys, formatting signs                     |
 | White           | `#ACEEEE` |                                                                             |
 | +oldRed         | `#d66666` | Loaders                                                                     |
-| +Pink           | `#F1ADFF` | Decimal numbers in code, unresolved boolean                                 |
+| +Pink           | `#F1ADFF` | Decimal numbers in code, unresolved boolean, `this` keyword when in italic                 |
 | +Gold           | `#E3E9AE` | Property names in yaml & json files                                         |
 
 -----------------------------------------
@@ -87,16 +87,27 @@ For developers/writers nostalgic of the future. For those who code like the futu
 -----------------------------------------
 
 - [x] Publishing
-- [ ] cpp colors review
-- [x] VBA .cls via serkonda7 VBA syntax 
+- [x] **MarkDown**
+- [x] **c**
+- [x] **KaTeX**
+- [x] **LaTeX**
+- [x] **json**
+- [x] **YAML**
+- [x] **Python**
+- [x] **HTML** is incomplete most probably but functinonal for now.
+- [ ] **cpp** colors review
+- [x] **VBA** .cls via serkonda7 `VBA` extension for syntax tokens 
 - [ ] Find KaTeX devs and ask them to add an align tag resetter
-- [x] A review of CSS. HTML tokens could be reused.
-- [ ] A review of bash tokens, they are probably alright already but not checked.
+- [x] A review of **CSS**. HTML tokens could be reused.
+- [ ] A review of **bash** tokens, they are probably alright already but not checked.
 - [ ] Review port to Firefox
 - [ ] Port to Chrome
 - [ ] Publish Obsidian version
+- [x] Minimal support for .**js**, maybe there are lots of things not covered.
 <br><br>
-- No real support yet for java, js as long as I do not use them. They should be close enough for now.
+- No real support yet for all languages as long as I do not use them. Hopefully they are close enough for now
+
+> Do not hesitate to drop me a line on GitHub if you need a particular language, some more tweaks for leftover tokens and like the color scheme.
 
 -----------------------------------------
 ## Screenshots

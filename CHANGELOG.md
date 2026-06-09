@@ -32,3 +32,5 @@ One of my .tex documents needed editing so a few tokens got inserted at the bott
 Reworked yaml & json slightly for better coherence. Minor tweaks here and there.
 - **2026-06-08 T 11:30**:<br>
 Reworked CSS tokens as I was already pulled in the task. Not sure about the color of `entity.name.tag.css`, the orange colored keywords are not alwasy easy to decide. That will do for now.
+- **2026-06-09 T 14:33**:<br>
+source.json = bold was a case of bad copy paste as it was supposed to only impact curly bracket for a test. Now corrected and properly applied on curly brackets. Also updated the color of entity name tags in css as I could not stand the bold orange overflow when working on compressed css files. Finally I added basic js colour scheme as I had to go through a lot of these js files and it was painful to watch.
