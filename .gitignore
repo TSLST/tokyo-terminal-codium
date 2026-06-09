@@ -15,4 +15,9 @@ Thumbs.db
 # Fichiers secrets
 env.md
 prd.md
+
+# Ignores but manifests
+.vscodeignore
+.vsixmanifest
+.gitignore
 EOF
