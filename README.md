@@ -5,8 +5,6 @@ Tags: !!str "#documentation #theme"
 Creation: 2026-01-15
 Update: 2026-06-09
 Contributors: 神縁
-Links: >
-   [[theme]]
 ---
 
 # Tokyo Terminal
@@ -87,7 +85,7 @@ For developers/writers nostalgic of the future. For those who code like the futu
 ## ToDo
 -----------------------------------------
 
-- [x] Publishing
+- [x] Publishing VS Codium version on the marketplace
 - [x] **MarkDown**
 - [x] **c**
 - [x] **KaTeX**
@@ -103,7 +101,7 @@ For developers/writers nostalgic of the future. For those who code like the futu
 - [ ] A review of **bash** tokens, they are probably alright already but not checked.
 - [ ] Review port to Firefox
 - [ ] Port to Chrome
-- [ ] Publish Obsidian version
+- [ ] Publishing Obsidian version
 - [x] Minimal support for .**js**, maybe there are lots of things not covered.
 <br><br>
 - No real support yet for all languages as long as I do not use them. Hopefully they are close enough for now
