@@ -3,8 +3,9 @@ Type: Doc
 Use: Readme docs for Tokyo Terminal theme, VS Codium/Code version.
 Tags: !!str "#documentation #theme"
 Creation: 2026-01-15
-Update: 2026-06-09
-Contributors: 神縁
+Update: 2026-06-11
+Contributors: [神縁]
+Version: !!str 1.2.3
 ---
 
 # Tokyo Terminal
@@ -44,8 +45,8 @@ This isn’t just a color scheme; it’s a high-contrast, high-energy workspace 
 
 #### Design Philosophy
 
-Inspired by the **hypnotic glow of vintage CRTs**, the **hyper-saturated dreams of synthwave**, *vibrancy of outrun nostalgia*, tokyo-terminal is a love letter to the 80s as I reimagined, restylized and modernized them.
-Think of **synths, oversaturated consoles**, a world of outrun sunsets, VHS static, and cyber alleyways. With a nod to Taki Ono’s neon design photography, this theme merges retro-futurism with modern clarity.
+Inspired by the **hypnotic color glow of vintage CRTs**, the **hyper-saturated dreams of synthwave**, *vibrancy of outrun nostalgia*, tokyo-terminal is a love letter to the 80s as I reimagined, restylized and modernized them.
+Think of **synths, oversaturated consoles**, a world of outrun sunsets and cyber alleyways, just free of VHS static. With a nod to Taki Ono’s neon design photography, this theme merges retro-futurism with modern clarity.
 
 Here for VSCodium, *tokyo-terminal* delivers:
 - **Bold readability**: Crisp **cyan (#34e2e2)** syntax on deep **purple (#2a2436)** and **near-black (#060507)** backgrounds.
@@ -86,6 +87,12 @@ For developers/writers nostalgic of the future. For those who code like the futu
 -----------------------------------------
 
 - [x] Publishing VS Codium version on the marketplace
+- [ ] Publishing VS Code version if incentivized
+- [ ] Publishing Obsidian version
+- [ ] Find KaTeX devs and ask them to add an align tag resetter
+- [ ] Publish Licence to SPDX
+- [ ] Review port to Firefox
+- [ ] Port to Chrome
 - [x] **MarkDown**
 - [x] **c**
 - [x] **KaTeX**
@@ -93,18 +100,14 @@ For developers/writers nostalgic of the future. For those who code like the futu
 - [x] **json**
 - [x] **YAML**
 - [x] **Python**
-- [x] **HTML** is incomplete most probably but functinonal for now.
+- [x] **HTML** is incomplete most probably but functinonal for now
 - [ ] **cpp** colors review
-- [x] **VBA** .cls via serkonda7 `VBA` extension for syntax tokens 
-- [ ] Find KaTeX devs and ask them to add an align tag resetter
-- [x] A review of **CSS**. HTML tokens could be reused.
-- [ ] A review of **bash** tokens, they are probably alright already but not checked.
-- [ ] Review port to Firefox
-- [ ] Port to Chrome
-- [ ] Publishing Obsidian version
-- [x] Minimal support for .**js**, maybe there are lots of things not covered.
+- [x] **VBA** .cls via serkonda7 `VBA` extension for syntax tokens
+- [x] **CSS** tokens updated
+- [x] **bash** tokens updated
+- [x] Minimal support for .**js**, maybe there are lots of things not covered
 <br><br>
-- No real support yet for all languages as long as I do not use them. Hopefully they are close enough for now
+No real support yet for all languages as long as I do not use them. Hopefully they are close enough for now
 
 > Do not hesitate to drop me a line on GitHub if you need a particular language, some more tweaks for leftover tokens and like the color scheme.
 
