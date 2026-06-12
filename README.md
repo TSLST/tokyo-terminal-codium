@@ -30,18 +30,18 @@ Version: !!str 1.2.4
 
 ### Short Description (for marketplace/extension metadata)
 
-```
-Tokyo Terminal is a high-contrast, neon-drenched VS Codium/Code theme inspired by a retro-futurist 80s terminal aesthetics, and Tokyo’s electric nights.
-Built for clarity and vibrancy, with accentuation for maximum visual efficiency.
-Designed @ 神縁 (2026)
+```plaintext
+Tokyo Terminal is a neon, high-contrast Obsidian theme inspired by a retrofuturist 80s terminal aesthetics, and Tokyo electric nights. Built for clarity and vibrancy, with maximum visual efficiency.
 ```
 
 ---
 
 ### Long README Introduction
 
-**Welcome to *tokyo-terminal***, a VSCode theme that transports your editor to a neon-lit japanese terminal circa 1984.
+**Welcome to *tokyo-terminal***, a VS Codium/Code theme that transports your editor to a neon-colored terminal circa 1984.
 This isn’t just a color scheme; it’s a high-contrast, high-energy workspace for developers who crave **clarity and visual accentuation**.
+
+Transform VS Codium/Code into a neon-lit, retro-futurist terminal with high-contrast colors and synthwave accents inspired by Tokyo electric nights aesthetics.
 
 #### Design Philosophy
 
@@ -88,7 +88,7 @@ For developers/writers nostalgic of the future. For those who code like the futu
 
 - [x] Publishing VS Codium version on the marketplace
 - [ ] Publishing VS Code version if incentivized
-- [ ] Publishing Obsidian version
+- [x] Publishing Obsidian version
 - [ ] Find KaTeX devs and ask them to add an align tag resetter
 - [ ] Publish Licence to SPDX
 - [ ] Review port to Firefox
@@ -106,6 +106,7 @@ For developers/writers nostalgic of the future. For those who code like the futu
 - [x] **CSS** tokens updated
 - [x] **bash** tokens updated
 - [x] Minimal support for .**js**, maybe there are lots of things not covered
+- [x] Support for **java**
 <br><br>
 No real support yet for all languages as long as I do not use them. Hopefully they are close enough for now
 
