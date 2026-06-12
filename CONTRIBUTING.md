@@ -3,12 +3,11 @@ Type: Doc
 Use: Readme docs for Tokyo Terminal them, VS Codium/Code version.
 Tags: #documentation #theme
 Creation: 2026-01-15
-Update: 2026-06-08
-Contributors: 神縁
-Links: [[theme]]
+Update: 2026-06-11
+Contributors: [神縁]
 ---
 
-# Contributing to tokyo_terminal
+# Contributing to tokyo-terminal-codium
 
 -----------------------------------------
 ## Contributors

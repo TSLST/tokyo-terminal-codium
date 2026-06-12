@@ -3,9 +3,9 @@ Type: Doc
 Use: Readme docs for Tokyo Terminal theme, VS Codium/Code version.
 Tags: !!str "#documentation #theme"
 Creation: 2026-01-15
-Update: 2026-06-11
+Update: 2026-06-12
 Contributors: [神縁]
-Version: !!str 1.2.3
+Version: !!str 1.2.4
 ---
 
 # Tokyo Terminal

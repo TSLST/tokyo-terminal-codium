@@ -1,11 +1,10 @@
 ---
 Type: Doc
-Use: Readme docs for Tokyo Terminal them, VS Codium/Code version.
-Tags: #documentation #theme
+Use: Readme docs for Tokyo Terminal theme, VS Codium/Code version.
+Tags: !!str "#documentation #theme"
 Creation: 2026-01-15
-Update: 2026-06-09
+Update: 2026-06-12
 Contributors: 神縁
-Links: [[theme]]
 ---
 
 # Changelog
@@ -34,3 +33,5 @@ Reworked yaml & json slightly for better coherence. Minor tweaks here and there.
 Reworked CSS tokens as I was already pulled in the task. Not sure about the color of `entity.name.tag.css`, the orange colored keywords are not alwasy easy to decide. That will do for now.
 - **2026-06-09 T 14:33**:<br>
 source.json = bold was a case of bad copy paste as it was supposed to only impact curly bracket for a test. Now corrected and properly applied on curly brackets. Also updated the color of entity name tags in css as I could not stand the bold orange overflow when working on compressed css files. Finally I added basic js colour scheme as I had to go through a lot of these js files and it was painful to watch.
+- **2026-06-12 T 17:47**:<br>
+Reworked Python a little bit. Shell is also verified, a lot is covered in both languages. I finally went through Java common tokens and updated it to the Tokyo Terminal main theme. A lot of variables may be left in all languages but this should be already prod ready all around.
