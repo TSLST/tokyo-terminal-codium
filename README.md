@@ -88,7 +88,7 @@ For developers/writers nostalgic of the future. For those who code like the futu
 
 - [x] Publishing VS Codium version on the marketplace
 - [ ] Publishing VS Code version if incentivized
-- [x] Publishing Obsidian version
+- [x] Published Obsidian version
 - [ ] Find KaTeX devs and ask them to add an align tag resetter
 - [ ] Publish Licence to SPDX
 - [ ] Review port to Firefox
@@ -114,7 +114,7 @@ For developers/writers nostalgic of the future. For those who code like the futu
 - [ ] **Solidity**
 - [ ] **php**
 - [x] **XML**
-- [x] .**ini** files
+- [x] .**ini** files, **dockerfiles**, .**conf** files
 <br><br>
 No real support yet for all languages as long as I do not use them. Hopefully they are close enough for now
 

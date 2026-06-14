@@ -35,3 +35,5 @@ Reworked CSS tokens as I was already pulled in the task. Not sure about the colo
 source.json = bold was a case of bad copy paste as it was supposed to only impact curly bracket for a test. Now corrected and properly applied on curly brackets. Also updated the color of entity name tags in css as I could not stand the bold orange overflow when working on compressed css files. Finally I added basic js colour scheme as I had to go through a lot of these js files and it was painful to watch.
 - **2026-06-12 T 17:47**:<br>
 Reworked Python a little bit. Shell is also verified, a lot is covered in both languages. I finally went through Java common tokens and updated it to the Tokyo Terminal main theme. A lot of variables may be left in all languages but this should be already prod ready all around.
+- **2026-06-14 T 23:19**:<br>
+Took the time to verify most important languages. A few are left to blind luck but it should be all around pretty consistent and offer visual clarity. I have a nasty default text to fuschia in unknown languages and file formats, I have to manually precise that by default the standard is cyan.
