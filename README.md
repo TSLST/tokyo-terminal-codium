@@ -3,9 +3,9 @@ Type: Doc
 Use: Readme docs for Tokyo Terminal theme, VS Codium/Code version.
 Tags: !!str "#documentation #theme"
 Creation: 2026-01-15
-Update: 2026-06-12
+Update: 2026-06-14
 Contributors: [神縁]
-Version: !!str 1.2.4
+Version: !!str 1.2.5
 ---
 
 # Tokyo Terminal
@@ -94,7 +94,7 @@ For developers/writers nostalgic of the future. For those who code like the futu
 - [ ] Review port to Firefox
 - [ ] Port to Chrome
 - [x] **MarkDown**
-- [x] **c**
+- [x] **C**
 - [x] **KaTeX**
 - [x] **LaTeX**
 - [x] **json**
@@ -107,6 +107,14 @@ For developers/writers nostalgic of the future. For those who code like the futu
 - [x] **bash** tokens updated
 - [x] Minimal support for .**js**, maybe there are lots of things not covered
 - [x] Support for **java**
+- [ ] **Go**
+- [x] **Git**
+- [x] **Ts**
+- [x] **Rust**
+- [ ] **Solidity**
+- [ ] **php**
+- [x] **XML**
+- [x] .**ini** files
 <br><br>
 No real support yet for all languages as long as I do not use them. Hopefully they are close enough for now
 
