@@ -37,3 +37,5 @@ source.json = bold was a case of bad copy paste as it was supposed to only impac
 Reworked Python a little bit. Shell is also verified, a lot is covered in both languages. I finally went through Java common tokens and updated it to the Tokyo Terminal main theme. A lot of variables may be left in all languages but this should be already prod ready all around.
 - **2026-06-14 T 23:19**:<br>
 Took the time to verify most important languages. A few are left to blind luck but it should be all around pretty consistent and offer visual clarity. I have a nasty default text to fuschia in unknown languages and file formats, I have to manually precise that by default the standard is cyan.
+- **2026-06-18 T 10:47**:<br>
+Some color changes and quick fixes.

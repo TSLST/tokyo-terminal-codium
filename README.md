@@ -5,7 +5,7 @@ Tags: !!str "#documentation #theme"
 Creation: 2026-01-15
 Update: 2026-06-14
 Contributors: [神縁]
-Version: !!str 1.2.5
+Version: !!str 1.2.6
 ---
 
 # Tokyo Terminal
@@ -69,7 +69,7 @@ For developers/writers nostalgic of the future. For those who code like the futu
 | Red             | `#ff418e` | Accents and function names                                                  |
 | BrightYellow    | `#ffe61c` | Keywords                                                                    |
 | Yellow          | `#fe8019` | FDunction calls                                                             |
-| BrightMagenta   | `#6c18d6` | Activity accent                                                             |
+| BrightMagenta   | `#8b5cf6` | Activity accent                                                             |
 | BrightGreen     | `#A3FF8C` | Strings                                                                     |
 | Green           | `#7fff00` | Comments, math symbols in KaTeX                                             |
 | BrightRed       | `#FF3B3B` | Errors and Bool = false                                                     |
@@ -86,7 +86,7 @@ For developers/writers nostalgic of the future. For those who code like the futu
 ## ToDo
 -----------------------------------------
 
-- [x] Publishing VS Codium version on the marketplace
+- [x] Published VS Codium version on the marketplace
 - [ ] Publishing VS Code version if incentivized
 - [x] Published Obsidian version
 - [ ] Find KaTeX devs and ask them to add an align tag resetter
@@ -100,7 +100,7 @@ For developers/writers nostalgic of the future. For those who code like the futu
 - [x] **json**
 - [x] **YAML**
 - [x] **Python**
-- [x] **HTML** is incomplete most probably but functinonal for now
+- [x] **HTML** is incomplete most probably but functionnal for now
 - [ ] **cpp** colors review
 - [x] **VBA** .cls via serkonda7 `VBA` extension for syntax tokens
 - [x] **CSS** tokens updated
@@ -115,6 +115,10 @@ For developers/writers nostalgic of the future. For those who code like the futu
 - [ ] **php**
 - [x] **XML**
 - [x] .**ini** files, **dockerfiles**, .**conf** files
+- [x] #6c18d6 → #8b5cf6 to increase readability and align with Obsidian standard color.
+- [x] #ff418e → #fc5698
+- [x] #181efd → #0285f9 Not too close to links color but with better readability than current color.
+- [x] #0f675b → #137d6e → #116d61
 <br><br>
 No real support yet for all languages as long as I do not use them. Hopefully they are close enough for now
 
