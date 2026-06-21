@@ -5,7 +5,7 @@ Tags: !!str "#documentation #theme"
 Creation: 2026-01-15
 Update: 2026-06-14
 Contributors: [神縁]
-Version: !!str 1.2.6
+Version: !!str 1.2.7
 ---
 
 # Tokyo Terminal
@@ -63,24 +63,24 @@ For developers/writers nostalgic of the future. For those who code like the futu
 | Color           | Hex       | Usage                                                                       |
 |---              |---        |---                                                                          |
 | Black           | `#060507` | Darkest Background for text and coding                                      |
-| Magenta         | `#2a2436` | Lighter Background for teminals and UI, also semi-hidden backreturn signs and null   |
-| BrightCyan      | `#34e2e2` | Main text                                                                   |
-| Cyan            | `#0f675b` | Types                                                                       |
-| Red             | `#ff418e` | Accents and function names                                                  |
-| BrightYellow    | `#ffe61c` | Keywords                                                                    |
-| Yellow          | `#fe8019` | FDunction calls                                                             |
-| BrightMagenta   | `#8b5cf6` | Activity accent                                                             |
-| BrightGreen     | `#A3FF8C` | Strings                                                                     |
-| Green           | `#7fff00` | Comments, math symbols in KaTeX                                             |
+| Magenta         | `#2a2436` | Lighter Background for teminals and UI, also semi-hidden backreturn/separators signs and null values |
+| BrightCyan      | `#34e2e2` | Main text, Object and classes names, section names in conf                  |
+| Cyan            | `#0f675b` | Types, Header 4                                                             |
+| Red             | `#ff418e` | Accents, functions and method names, Titles                                 |
+| BrightYellow    | `#ffe61c` | Keywords, Header 1                                                          |
+| Yellow          | `#fe8019` | FDunction calls, buttons, expandvars, Header 2                              |
+| BrightMagenta   | `#8b5cf6` | Activity/hover accent, Header 3                                             |
+| BrightGreen     | `#A3FF8C` | Strings, hashtags                                                           |
+| Green           | `#7fff00` | Comments in some languages, math symbols in KaTeX                           |
 | BrightRed       | `#FF3B3B` | Errors and Bool = false                                                     |
 | Blue            | `#3465a4` | Links                                                                       |
-| BrightBlue      | `#181efd` | Rarely used super accent, comments in yaml, hashtags                        |
+| BrightBlue      | `#181efd` | Rarely used super accent, Header 6                                          |
 | BrightWhite     | `#ECEFF4` | Plaintext, code symbols                                                     |
-| BrightBlack     | `#999988` | Comments in some languages, yaml keys, formatting signs                     |
-| White           | `#ACEEEE` |                                                                             |
-| +oldRed         | `#d66666` | Loaders                                                                     |
+| BrightBlack     | `#999988` | Comments in some languages, punctuation, Header 5                           |
+| White           | `#ACEEEE` | Variables in code                                                           |
+| +oldRed         | `#d66666` | Metaprocessors and loaders                                                  |
 | +Pink           | `#F1ADFF` | Decimal numbers in code, unresolved boolean, `this` keyword when in italic                 |
-| +Gold           | `#E3E9AE` | Property names in yaml & json files                                         |
+| +Gold           | `#E3E9AE` | Property keys in yaml & json files, arguments                               |
 
 -----------------------------------------
 ## ToDo
@@ -123,6 +123,8 @@ For developers/writers nostalgic of the future. For those who code like the futu
 No real support yet for all languages as long as I do not use them. Hopefully they are close enough for now
 
 > Do not hesitate to drop me a line on GitHub if you need a particular language, some more tweaks for leftover tokens and like the color scheme.
+
+> I like to put separators and null values out of the way but the color-contrast I chose may be a bit low for other users. Feel free to edit your own tokyo-teminal-codium.json file by apoplying a search & replace all: `"foreground": "#2a2436",` by `"foreground": "#F1ADFF",`. I am also considering switching this permanently to #8b5cf6 with *italic*. I would then edit mine config separately. Maybe next version and definitely as soon as someone tells me they dislike the almost unperceptible separators (Sometimes I wonder if I deleted the `;` by mistake I confess). Variables such as "punctuation.separator.dictionary.pair.json" or 
 
 -----------------------------------------
 ## Screenshots

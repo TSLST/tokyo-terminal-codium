@@ -4,7 +4,7 @@
   "icon": "images/tokyo-terminal-jack.png",
   "displayName": "Tokyo Terminal",
   "description": "Retro futurist 80s terminal, synthwave, Tokyo neons theme.",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "engines": {
     "vscode": "^1.60.0"
   },
