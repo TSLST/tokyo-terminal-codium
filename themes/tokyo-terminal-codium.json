@@ -1262,7 +1262,7 @@
 				"meta.tag.inline.span.start.html punctuation.definition.tag.end.html"
 			],
 			"settings": {
-				"foreground": "#0f675b",
+				"foreground": "#116d61",
 				"fontStyle": "bold"
 			}
 		},
@@ -1273,7 +1273,7 @@
 				"meta.tag.inline.span.end.html punctuation.definition.tag.end.html"
 			],
 			"settings": {
-				"foreground": "#0f675b",
+				"foreground": "#116d61",
 				"fontStyle": "bold"
 			}
 		},

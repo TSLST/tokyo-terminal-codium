@@ -28,6 +28,7 @@ Version: !!str 1.2.7
 ## Description
 -----------------------------------------
 
+---
 ### Short Description (for marketplace/extension metadata)
 
 ```plaintext
@@ -35,7 +36,6 @@ Tokyo Terminal is a neon, high-contrast Obsidian theme inspired by a retrofuturi
 ```
 
 ---
-
 ### Long README Introduction
 
 **Welcome to *tokyo-terminal***, a VS Codium/Code theme that transports your editor to a neon-colored terminal circa 1984.
@@ -45,16 +45,16 @@ Transform VS Codium/Code into a neon-lit, retro-futurist terminal with high-cont
 
 #### Design Philosophy
 
-Inspired by the **hypnotic color glow of vintage CRTs**, the **hyper-saturated dreams of synthwave**, *vibrancy of outrun nostalgia*, tokyo-terminal is a love letter to the 80s as I reimagined, restylized and modernized them.
-Think of **synths, oversaturated consoles**, a world of outrun sunsets and cyber alleyways, just free of VHS static. With a nod to Taki Ono’s neon design photography, this theme merges retro-futurism with modern clarity.
+Inspired by the **hypnotic color glow of vintage CRTs**, the **hyper-saturated dreams of synthwave**, *vibrancy of outrun nostalgia*, tokyo-terminal is a love letter to the 80s colors scheme as I reimagined, restylized and modernized them.
+Think of **synths, oversaturated consoles**, a world of outrun sunsets and cyber alleyways, just free of VHS static and CRT noise. With a nod to Taki Ono’s neon design photography, this theme merges retro-futurism with modern clarity.
 
-Here for VSCodium, *tokyo-terminal* delivers:
+Aiming for a holistic environment theme, *tokyo-terminal* delivers:
 - **Bold readability**: Crisp **cyan (#34e2e2)** syntax on deep **purple (#2a2436)** and **near-black (#060507)** backgrounds.
-- **Electric accents**: **Hot pink (#FF418E)**, **sunset orange (#FE8019)**, **gold (#FFE61C)**, and **deep violet (#6C18D6)** for keywords, functions, and UI highlights.
-- **Retro-futuristic contrast**: Designed to reduce eye strain while keeping your code *visually alive*—like hacking a mainframe in a cybercafé circa 1984.
+- **Electric accents**: Highlighted keywords, functions, and UI in **Hot pink (#FF418E)**, **sunset orange (#FE8019)** buttons, **gold (#FFE61C)**, and **deep violet (#6C18D6)** animations.
+- **Retro-futuristic contrast**: Designed to reduce eye strain while keeping items *visually alive* — like a mainframe in a cybercafé circa 1984.
 - **Minimalist efficiency** grit meets glamour.
 
-For developers/writers nostalgic of the future. For those who code like the future depends on it (Because it does).
+For developers/writers nostalgic of the future. For those who conceptualize like the future depends on it (Because it does).
 
 -----------------------------------------
 ## Palette
@@ -65,8 +65,8 @@ For developers/writers nostalgic of the future. For those who code like the futu
 | Black           | `#060507` | Darkest Background for text and coding                                      |
 | Magenta         | `#2a2436` | Lighter Background for teminals and UI, also semi-hidden backreturn/separators signs and null values |
 | BrightCyan      | `#34e2e2` | Main text, Object and classes names, section names in conf                  |
-| Cyan            | `#0f675b` | Types, Header 4                                                             |
-| Red             | `#ff418e` | Accents, functions and method names, Titles                                 |
+| Cyan            | `#116d61` | Types, Header 4                                                             |
+| Red             | `#fc5698` | Accents, functions and method names, Titles                                 |
 | BrightYellow    | `#ffe61c` | Keywords, Header 1                                                          |
 | Yellow          | `#fe8019` | FDunction calls, buttons, expandvars, Header 2                              |
 | BrightMagenta   | `#8b5cf6` | Activity/hover accent, Header 3                                             |
@@ -74,7 +74,7 @@ For developers/writers nostalgic of the future. For those who code like the futu
 | Green           | `#7fff00` | Comments in some languages, math symbols in KaTeX                           |
 | BrightRed       | `#FF3B3B` | Errors and Bool = false                                                     |
 | Blue            | `#3465a4` | Links                                                                       |
-| BrightBlue      | `#181efd` | Rarely used super accent, Header 6                                          |
+| BrightBlue      | `#0285f9` | Rarely used super accent, Header 6                                          |
 | BrightWhite     | `#ECEFF4` | Plaintext, code symbols                                                     |
 | BrightBlack     | `#999988` | Comments in some languages, punctuation, Header 5                           |
 | White           | `#ACEEEE` | Variables in code                                                           |
@@ -94,37 +94,31 @@ For developers/writers nostalgic of the future. For those who code like the futu
 - [ ] Review port to Firefox
 - [ ] Port to Chrome
 - [x] **MarkDown**
-- [x] **C**
+- [x] **c**
 - [x] **KaTeX**
-- [x] **LaTeX**
-- [x] **json**
+- [x] **LaTeX** Minimal support
+- [x] **json** UPDATE
 - [x] **YAML**
-- [x] **Python**
-- [x] **HTML** is incomplete most probably but functionnal for now
+- [x] **Python** UPDATE
+- [x] **HTML** UPDATE
 - [ ] **cpp** colors review
 - [x] **VBA** .cls via serkonda7 `VBA` extension for syntax tokens
-- [x] **CSS** tokens updated
-- [x] **bash** tokens updated
-- [x] Minimal support for .**js**, maybe there are lots of things not covered
-- [x] Support for **java**
+- [x] **CSS** UPDATE
+- [x] **bash**
+- [x]  .**js** Minimal support
+- [x] **java** Minimal support
 - [ ] **Go**
 - [x] **Git**
-- [x] **Ts**
-- [x] **Rust**
+- [x] **Ts** Minimal support
+- [x] **Rust** Minimal support
 - [ ] **Solidity**
 - [ ] **php**
-- [x] **XML**
+- [x] **XML** Minimal support
 - [x] .**ini** files, **dockerfiles**, .**conf** files
-- [x] #6c18d6 → #8b5cf6 to increase readability and align with Obsidian standard color.
-- [x] #ff418e → #fc5698
-- [x] #181efd → #0285f9 Not too close to links color but with better readability than current color.
-- [x] #0f675b → #137d6e → #116d61
 <br><br>
 No real support yet for all languages as long as I do not use them. Hopefully they are close enough for now
 
-> Do not hesitate to drop me a line on GitHub if you need a particular language, some more tweaks for leftover tokens and like the color scheme.
-
-> I like to put separators and null values out of the way but the color-contrast I chose may be a bit low for other users. Feel free to edit your own tokyo-teminal-codium.json file by apoplying a search & replace all: `"foreground": "#2a2436",` by `"foreground": "#F1ADFF",`. I am also considering switching this permanently to #8b5cf6 with *italic*. I would then edit mine config separately. Maybe next version and definitely as soon as someone tells me they dislike the almost unperceptible separators (Sometimes I wonder if I deleted the `;` by mistake I confess). Variables such as "punctuation.separator.dictionary.pair.json" or 
+> Do not hesitate to drop me a line on GitHub if you need a particular language, some more tweaks for leftover tokens and like the color scheme. 
 
 -----------------------------------------
 ## Screenshots
@@ -135,6 +129,6 @@ No real support yet for all languages as long as I do not use them. Hopefully th
 ![Color Palette](images/palette.png)
 
 ---
-**Made by 神縁 in 2026 under MIT License**
+**Made by 神縁 in 2026 under TSLST License**
 [GitHub](https://github.com/TSLST)
 [Mastodon](https://mastodon.social/@TSLST) Even though I don't actually like Mastodon
