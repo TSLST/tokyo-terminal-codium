@@ -3,8 +3,8 @@ Type: Doc
 Use: Readme docs for Tokyo Terminal theme, VS Codium/Code version.
 Tags: !!str "#documentation #theme"
 Creation: 2026-01-15
-Update: 2026-06-12
-Contributors: 神縁
+Update: 2026-07-01
+Contributors: [神縁]
 ---
 
 # Changelog
@@ -45,3 +45,7 @@ Found a small loop hole of missing tokens in c. preprocessor keywords
 Found missing tokens in python as I am developping extensively in this language these days. Support type and null values are now properly rendered in their logical colors. `punctuation.terminator.rule.css` and separators in json are now white rather than #2a2436 for I could not see when I was missing them... I treat these as specific type of separators rather than newline characters. The separators are left #2a2436 in code. I might make all newlines characters grey #999998 or some other colour at some point - I have not found which one visually works but the current - and only leave #2a2436 for null & void values.<br>
 I applied colouring to specific basic html tags that make the visual more defined now. There is an excess of pink <div> but that's ok, I cannot change the color of closing tags without losing some visual cue of enclosement.<br>
 Passing the changes as pre-PROD 1.2.7, PROD is 1.3.0 when all languages are covered at least partially. Here is missing basic support for : java, solidity, typescript, go and probably others. It's getting better though, mostly need to be careful with the default text to #ff418e, I am not even sure what triggers it and if I needed that variable so for good reasons or not.
+- **2026-06-23 T 23:34 + 02:00**:<br>
+Reworked the HTML tags by adding i, resolving strong to bold red and removing the text.html.derivative scopes so that they apply to markdown.
+- **2026-07-01 T 20:10 + 02:00**:<br>
+Added Go Language tokens. Maybe I should give a different colour to interface as it is a very specific type. Either in pink or purple. Not yet sure. Added Solidity Language but the Visibility Extension by juanfranblanco, although recommended has negative votes attached mentionning malwares. I have no Time to investigate further yet. Also change decorators to appear purple and bold and some dark cyan type modifier to appear non-bold for visual separation.

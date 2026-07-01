@@ -3,9 +3,9 @@ Type: Doc
 Use: Readme docs for Tokyo Terminal theme, VS Codium/Code version.
 Tags: !!str "#documentation #theme"
 Creation: 2026-01-15
-Update: 2026-06-14
+Update: 2026-07-01
 Contributors: [神縁]
-Version: !!str 1.2.7
+Version: !!str 1.2.8
 ---
 
 # Tokyo Terminal
@@ -97,28 +97,28 @@ For developers/writers nostalgic of the future. For those who conceptualize like
 - [x] **c**
 - [x] **KaTeX**
 - [x] **LaTeX** Minimal support
-- [x] **json** UPDATE
+- [x] **json**
 - [x] **YAML**
-- [x] **Python** UPDATE
-- [x] **HTML** UPDATE
+- [x] **Python**
+- [x] **HTML**
 - [ ] **cpp** colors review
 - [x] **VBA** .cls via serkonda7 `VBA` extension for syntax tokens
-- [x] **CSS** UPDATE
+- [x] **CSS**
 - [x] **bash**
 - [x]  .**js** Minimal support
 - [x] **java** Minimal support
-- [ ] **Go**
+- [x] **Go** Minimal support
 - [x] **Git**
 - [x] **Ts** Minimal support
 - [x] **Rust** Minimal support
-- [ ] **Solidity**
-- [ ] **php**
+- [x] **Solidity** via juanfranblanco Solidity extension. Either the extension is rigged or the author is being downvoted by malicious actors, beware.
+- [ ] **php** incoming...
 - [x] **XML** Minimal support
 - [x] .**ini** files, **dockerfiles**, .**conf** files
 <br><br>
-No real support yet for all languages as long as I do not use them. Hopefully they are close enough for now
+No complete support yet for all languages as long as I do not use them. Hopefully they are close enough for now
 
-> Do not hesitate to drop me a line on GitHub if you need a particular language, some more tweaks for leftover tokens and like the color scheme. 
+> Do not hesitate to drop me a line on GitHub if you need new tokens added, some more tweaks and like the color scheme. 
 
 -----------------------------------------
 ## Screenshots
