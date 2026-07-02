@@ -49,3 +49,7 @@ Passing the changes as pre-PROD 1.2.7, PROD is 1.3.0 when all languages are cove
 Reworked the HTML tags by adding i, resolving strong to bold red and removing the text.html.derivative scopes so that they apply to markdown.
 - **2026-07-01 T 20:10 + 02:00**:<br>
 Added Go Language tokens. Maybe I should give a different colour to interface as it is a very specific type. Either in pink or purple. Not yet sure. Added Solidity Language but the Visibility Extension by juanfranblanco, although recommended has negative votes attached mentionning malwares. I have no Time to investigate further yet. Also change decorators to appear purple and bold and some dark cyan type modifier to appear non-bold for visual separation.
+- **2026-07-01 T 21:16 + 02:00**:<br>
+Noticed VBA Options were not bold and not all covered just after publishing. Set for 1.2.9 once php is covered too.
+- **2026-07-01 T 23:45 + 02:00**:<br>
+Finished to update PHP and added SQL. Adress punctuation changed to link blue #3465a4 need to be enforced in other languages including c/cpp.

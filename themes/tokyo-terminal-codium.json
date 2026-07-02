@@ -375,15 +375,6 @@
 			}
 		},
 		{
-			"scope": [
-				"invalid.illegal",
-				"invalid.illegal.placeholder.c"
-			],
-			"settings": {
-				"foreground": "#FF3B3B"
-			}
-		},
-		{
 			"scope": "keyword.operator",
 			"settings": {
 				"foreground": "#ffe61c",
@@ -413,6 +404,15 @@
 			"settings": {
 				"foreground": "#D66666",
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"invalid.illegal",
+				"invalid.illegal.placeholder.c"
+			],
+			"settings": {
+				"foreground": "#FF3B3B"
 			}
 		},
 		{
@@ -676,7 +676,7 @@
 				"source.solidity variable.language.transaction"
 			],
 			"settings": {
-				"foreground": "#3465a4",
+				"foreground": "#fe8019",
 				"fontStyle": ""
 			}
 		},
@@ -748,6 +748,25 @@
 		},
 		{
 			"scope": [
+				"keyword.operator.address.go"
+			],
+			"settings": {
+				"foreground": "#3465a4",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.string.begin.go",
+				"punctuation.definition.string.end.go"
+			],
+			"settings": {
+				"foreground": "#999998",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
 				"variable.parameter.go"
 			],
 			"settings": {
@@ -777,11 +796,156 @@
 		},
 		{
 			"scope": [
-				"source.php meta.function-call",
-				"source.php meta.function-call.object"
+				"keyword.control.declare.php"
 			],
 			"settings": {
-				"foreground": "#116d61"
+				"foreground": "#d66666",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"constant.other.php",
+				"support.constant.core.php",
+				"constant.other.class.php"
+			],
+			"settings": {
+				"foreground": "#999998",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.string.begin.php",
+				"punctuation.definition.string.end.php"
+			],
+			"settings": {
+				"foreground": "#999998",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"constant.language.php"
+			],
+			"settings": {
+				"foreground": "#F1ADFF",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"source.php punctuation.definition.variable.php"
+			],
+			"settings": {
+				"foreground": "#3465a4",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"source.php variable.language.this.php"
+			],
+			"settings": {
+				"foreground": "#F1ADFF",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"support.function.constructor.php"
+			],
+			"settings": {
+				"foreground": "#FC5698",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"support.function.basic_functions.php"
+			],
+			"settings": {
+				"foreground": "#d66666",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"support.function.errorfunc.php",
+				"support.function.php_spl.php",
+				"support.function.info.php"
+			],
+			"settings": {
+				"foreground": "#fc5698",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"support.function.datetime.php",
+				"support.function.string.php",
+				"support.function.file.php"
+			],
+			"settings": {
+				"foreground": "#FFE61C",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"storage.modifier.visibility.public.php",
+				"storage.modifier.visibility.private.php"
+			],
+			"settings": {
+				"foreground": "#116d61",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"keyword.other.type.php"
+			],
+			"settings": {
+				"foreground": "#116d61",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"source.sql"
+			],
+			"settings": {
+				"foreground": "#34e2e2",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"keyword.other.DML.sql",
+				"keyword.operator.comparison.sql"
+			],
+			"settings": {
+				"foreground": "#FFE61C",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.star.sql"
+			],
+			"settings": {
+				"foreground": "#F1ADFF",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.string.begin.sql",
+				"punctuation.definition.string.end.sql"
+			],
+			"settings": {
+				"foreground": "#999998",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -1963,7 +2127,7 @@
 		{
 			"scope": "variable.language.this.js",
 			"settings": {
-				"foreground": "#B48EAD",
+				"foreground": "#F1ADFF",
 				"fontStyle": "italic"
 			}
 		},
@@ -2918,6 +3082,15 @@
 		},
 		{
 			"scope": [
+				"source.c"
+			],
+			"settings": {
+				"foreground": "#ACEEEE",
+				"fontStyle": ""
+			},
+		},
+		{
+			"scope": [
 				"source.c storage.type",
 				"source.cpp storage.type",
 				"source.c entity.name.type",
@@ -3003,12 +3176,29 @@
 				"storage.type.primitive.cpp",
 				"source.cpp storage.type",
 				"storage.type.built-in.primitive.c",
-				"keyword.other.typedef.c",
-				"storage.modifier.c"
+				"keyword.other.typedef.c"
 			],
 			"settings": {
 				"foreground": "#116d61",
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"storage.modifier.c"
+			],
+			"settings": {
+				"foreground": "#116d61",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"variable.parameter.preprocessor.c"
+			],
+			"settings": {
+				"foreground": "#E3E9AE",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -3029,23 +3219,30 @@
 				"entity.name.function.preprocessor.c"
 			],
 			"settings": {
-				"foreground": "#fc5698",
-				"fontStyle": ""
+				"foreground": "#34e2e2",
+				"fontStyle": "bold"
 			}
 		},
 		{
 			"scope": [
-				"meta.function.definition.parameters.c",
-				"meta.function.c"
+				"entity.name.other.preprocessor.macro.predefined.__LINE__.c"
 			],
 			"settings": {
-				"foreground": "#e2e2b2",
+				"foreground": "#F1ADFF",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": [
-				"meta.function-call.c",
+				"meta.function-call.c"
+			],
+			"settings": {
+				"foreground": "#aceeee",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
 				"constant.other.placeholder.c"
 			],
 			"settings": {
@@ -3090,7 +3287,7 @@
 				"meta.function.c"
 			],
 			"settings": {
-				"foreground": "#34E2E2",
+				"foreground": "#ACEEEE",
 				"fontStyle": ""
 			}
 		},
@@ -3223,10 +3420,12 @@
 		},
 		{
 			"scope":[
-				"punctuation.terminator.statement.c"
+				"punctuation.terminator.statement.c",
+				"constant.character.escape.line-continuation.c"
 			],
 			"settings": {
-				"foreground": "#2a2436"
+				"foreground": "#2a2436",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -3921,11 +4120,12 @@
 		},
 		{
 			"scope":[
-				"source.vba keyword.other.option.vb6"
+				"source.vba keyword.other.option.vb6",
+				"source.vba keyword.other.option.vba"
 			],
 			"settings": {
 				"foreground": "#d66666",
-				"fontStyle": ""
+				"fontStyle": "bold"
 			}
 		},
 		{

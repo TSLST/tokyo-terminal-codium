@@ -5,7 +5,7 @@ Tags: !!str "#documentation #theme"
 Creation: 2026-01-15
 Update: 2026-07-01
 Contributors: [神縁]
-Version: !!str 1.2.8
+Version: !!str 1.2.9
 ---
 
 # Tokyo Terminal
@@ -93,28 +93,30 @@ For developers/writers nostalgic of the future. For those who conceptualize like
 - [ ] Publish Licence to SPDX
 - [ ] Review port to Firefox
 - [ ] Port to Chrome
-- [x] **MarkDown**
-- [x] **c**
-- [x] **KaTeX**
-- [x] **LaTeX** Minimal support
-- [x] **json**
-- [x] **YAML**
-- [x] **Python**
+- [x] **MarkDown** Full support
+- [x] **C** Full support
+- [ ] **C++** Needs review
+- [ ] **C\#** 
+- [x] **KaTeX** Full support
+- [x] **LaTeX**
+- [x] **json** Full support
+- [x] **YAML** Full support
+- [x] **Python** Full support
 - [x] **HTML**
-- [ ] **cpp** colors review
-- [x] **VBA** .cls via serkonda7 `VBA` extension for syntax tokens
-- [x] **CSS**
-- [x] **bash**
-- [x]  .**js** Minimal support
-- [x] **java** Minimal support
-- [x] **Go** Minimal support
+- [x] **VBA** Full support of .**cls** via serkonda7 `VBA` extension for syntax tokens
+- [x] **CSS** Full support
+- [x] **bash** Full support
+- [x] .**js**
+- [x] **java**
+- [x] **Go**
 - [x] **Git**
-- [x] **Ts** Minimal support
-- [x] **Rust** Minimal support
+- [x] **SQL**
+- [x] **Ts**
+- [x] **Rust**
 - [x] **Solidity** via juanfranblanco Solidity extension. Either the extension is rigged or the author is being downvoted by malicious actors, beware.
-- [ ] **php** incoming...
-- [x] **XML** Minimal support
-- [x] .**ini** files, **dockerfiles**, .**conf** files
+- [x] **php**
+- [x] **XML**
+- [x] .**ini** files, **dockerfiles**, .**conf** files Full support
 <br><br>
 No complete support yet for all languages as long as I do not use them. Hopefully they are close enough for now
 
