@@ -1,1 +1,18 @@
-Not yet set.
+#===============================================================================
+## Support
+#===============================================================================
+
+support:
+  paypal: https://www.paypal.com/donate/?business=WDQQSEFKMVCYA&no_recurring=0&item_name=Support+me+as+I+am+struggling+financially+yet+keeping+head+up.&currency_code=EUR
+
+
+#===============================================================================
+## Personal Messages
+#===============================================================================
+
+personal:
+  email: msepitaf@yahoo.fr
+
+  message: |
+    I would love some advice on how to get a dime as I am currently struggling financially.
+    If you have a job I am interested as well: I mostly work on AI harnesses in Python/C to aim at robotics controlling by using Quake 3 as a simulated environment.

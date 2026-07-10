@@ -1078,7 +1078,7 @@
 				"entity.name.section.group-title.ini"
 			],
 			"settings": {
-				"foreground": "#34e2e2",
+				"foreground": "#fc5698",
 				"fontStyle": "bold"
 			}
 		},
@@ -1089,6 +1089,15 @@
 			"settings": {
 				"foreground": "#E3E9AE",
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"comment.line.semicolon.ini"
+			],
+			"settings": {
+				"foreground": "#999998",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -1472,8 +1481,8 @@
 				"meta.tag.metadata.style.start.html punctuation.definition.tag.end.html"
 			],
 			"settings": {
-				"foreground": "#E3E9AE",
-				"fontStyle": ""
+				"foreground": "#d66666",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -1483,8 +1492,8 @@
 				"meta.tag.metadata.style.end.html punctuation.definition.tag.end.html"
 			],
 			"settings": {
-				"foreground": "#E3E9AE",
-				"fontStyle": ""
+				"foreground": "#d66666",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -1607,8 +1616,7 @@
 		},
 		{
 			"scope": [
-				"meta.tag.xml",
-				"text.xml meta.tag.preprocessor.xml"
+				"meta.tag.xml"
 			],
 			"settings": {
 				"foreground": "#ECEFF4"
@@ -1655,7 +1663,8 @@
 		{
 			"scope": [
 				"entity.name.tag.xml",
-				"text.xml meta.tag.preprocessor entity.name.tag"
+				"text.xml meta.tag.preprocessor entity.name.tag",
+				"meta.tag.preprocessor.xml punctuation.definition.tag.xml"
 			],
 			"settings": {
 				"foreground": "#D66666",
@@ -2603,8 +2612,17 @@
 				"entity.other.attribute-name.pseudo-element.css"
 			],
 			"settings": {
-				"foreground": "#fc5698",
+				"foreground": "#8b5cf6",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"support.function.url.css"
+			],
+			"settings": {
+				"foreground": "#3465a4",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -3074,6 +3092,24 @@
 		{
 			"scope": [
 				"constant.language.python"
+			],
+			"settings": {
+				"foreground": "#F1ADFF",
+				"fontStyle": ""
+			},
+		},
+		{
+			"scope": [
+				"entity.other.inherited-class.python"
+			],
+			"settings": {
+				"foreground": "#116d61",
+				"fontStyle": "bold"
+			},
+		},
+		{
+			"scope": [
+				"punctuation.separator.continuation.line.python"
 			],
 			"settings": {
 				"foreground": "#2a2436",

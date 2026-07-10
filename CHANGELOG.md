@@ -3,7 +3,7 @@ Type: Doc
 Use: Readme docs for Tokyo Terminal theme, VS Codium/Code version.
 Tags: !!str "#documentation #theme"
 Creation: 2026-01-15
-Update: 2026-07-01
+Update: 2026-07-10
 Contributors: [神縁]
 ---
 
@@ -53,3 +53,5 @@ Added Go Language tokens. Maybe I should give a different colour to interface as
 Noticed VBA Options were not bold and not all covered just after publishing. Set for 1.2.9 once php is covered too.
 - **2026-07-01 T 23:45 + 02:00**:<br>
 Finished to update PHP and added SQL. Adress punctuation changed to link blue #3465a4 need to be enforced in other languages including c/cpp.
+- **2026-07-10 T 15:21 + 02:00**:<br>
+Minor tweaks. I am thinking about developping a cfg keywords extensions as the game cfg I am working on at the moment tend to have all keywords reverting to source.ini token. seta, bind, alias in pink is kind of ugly and disorienting for a visual approach like Tokyo Terminal.

@@ -3,9 +3,9 @@ Type: Doc
 Use: Readme docs for Tokyo Terminal theme, VS Codium/Code version.
 Tags: !!str "#documentation #theme"
 Creation: 2026-01-15
-Update: 2026-07-01
+Update: 2026-07-10
 Contributors: [神縁]
-Version: !!str 1.2.9
+Version: !!str 1.2.10
 ---
 
 # Tokyo Terminal
@@ -32,7 +32,7 @@ Version: !!str 1.2.9
 ### Short Description (for marketplace/extension metadata)
 
 ```plaintext
-Tokyo Terminal is a neon, high-contrast Obsidian theme inspired by a retrofuturist 80s terminal aesthetics, and Tokyo electric nights. Built for clarity and vibrancy, with maximum visual efficiency.
+Tokyo Terminal is a neon, high-contrast theme inspired by a retrofuturist 80s terminal aesthetics, and Tokyo electric nights. Built for clarity and vibrancy, with maximum visual efficiency.
 ```
 
 ---
@@ -79,7 +79,7 @@ For developers/writers nostalgic of the future. For those who conceptualize like
 | BrightBlack     | `#999988` | Comments in some languages, punctuation, Header 5                           |
 | White           | `#ACEEEE` | Variables in code                                                           |
 | +oldRed         | `#d66666` | Metaprocessors and loaders                                                  |
-| +Pink           | `#F1ADFF` | Decimal numbers in code, unresolved boolean, `this` keyword when in italic                 |
+| +Pink           | `#F1ADFF` | Decimal numbers in code, unresolved boolean, `this` keyword when in italic  |
 | +Gold           | `#E3E9AE` | Property keys in yaml & json files, arguments                               |
 
 -----------------------------------------
@@ -93,19 +93,19 @@ For developers/writers nostalgic of the future. For those who conceptualize like
 - [ ] Publish Licence to SPDX
 - [ ] Review port to Firefox
 - [ ] Port to Chrome
-- [x] **MarkDown** Full support
-- [x] **C** Full support
-- [ ] **C++** Needs review
-- [ ] **C\#** 
-- [x] **KaTeX** Full support
+- [x] **MarkDown** $\mathbf{[Full \space support]}$
+- [x] **C** $\mathbf{[Full \space support]}$
+- [ ] **C++** Needs review, 1.3.0 once validated
+- [ ] **C\#** Maybe some monimal support in 1.3.0, unchecked till then.
+- [x] **KaTeX** $\mathbf{[Full \space support]}$
 - [x] **LaTeX**
-- [x] **json** Full support
-- [x] **YAML** Full support
-- [x] **Python** Full support
+- [x] **json** $\mathbf{[Full \space support]}$
+- [x] **YAML** $\mathbf{[Full \space support]}$
+- [x] **Python** $\mathbf{[Full \space support]}$
 - [x] **HTML**
-- [x] **VBA** Full support of .**cls** via serkonda7 `VBA` extension for syntax tokens
-- [x] **CSS** Full support
-- [x] **bash** Full support
+- [x] **VBA** $\mathbf{[Full \space support]}$ of .**cls** via serkonda7 `VBA` extension for syntax tokens
+- [x] **CSS** $\mathbf{[Full \space support]}$
+- [x] **bash** $\mathbf{[Full \space support]}$
 - [x] .**js**
 - [x] **java**
 - [x] **Go**
@@ -116,7 +116,7 @@ For developers/writers nostalgic of the future. For those who conceptualize like
 - [x] **Solidity** via juanfranblanco Solidity extension. Either the extension is rigged or the author is being downvoted by malicious actors, beware.
 - [x] **php**
 - [x] **XML**
-- [x] .**ini** files, **dockerfiles**, .**conf** files Full support
+- [x] .**ini** files, **dockerfiles**, .**conf** files $\mathbf{[Full \space support]}$
 <br><br>
 No complete support yet for all languages as long as I do not use them. Hopefully they are close enough for now
 
