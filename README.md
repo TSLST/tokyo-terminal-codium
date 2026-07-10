@@ -8,7 +8,9 @@ Contributors: [神縁]
 Version: !!str 1.2.10
 ---
 
+
 # Tokyo Terminal
+================================================================================
 
 ```shin'en
    /$$            /$$            /$$     /$$$$$$$$$$      
@@ -24,9 +26,9 @@ Version: !!str 1.2.10
    |__/          |__/        |_/  |_/   \/|$$$$/   \$$$   
 ```
 
------------------------------------------
+-------------------------
 ## Description
------------------------------------------
+-------------------------
 
 ---
 ### Short Description (for marketplace/extension metadata)
@@ -56,36 +58,37 @@ Aiming for a holistic environment theme, *tokyo-terminal* delivers:
 
 For developers/writers nostalgic of the future. For those who conceptualize like the future depends on it (Because it does).
 
------------------------------------------
+-------------------------
 ## Palette
------------------------------------------
+-------------------------
 
-| Color           | Hex       | Usage                                                                       |
-|---              |---        |---                                                                          |
-| Black           | `#060507` | Darkest Background for text and coding                                      |
+| Color           | Hex        | Usage |
+|---              |---         |--- |
+| Black           | `#060507` | Darkest Background for text and coding   |
 | Magenta         | `#2a2436` | Lighter Background for teminals and UI, also semi-hidden backreturn/separators signs and null values |
-| BrightCyan      | `#34e2e2` | Main text, Object and classes names, section names in conf                  |
-| Cyan            | `#116d61` | Types, Header 4                                                             |
-| Red             | `#fc5698` | Accents, functions and method names, Titles                                 |
-| BrightYellow    | `#ffe61c` | Keywords, Header 1                                                          |
-| Yellow          | `#fe8019` | FDunction calls, buttons, expandvars, Header 2                              |
-| BrightMagenta   | `#8b5cf6` | Activity/hover accent, Header 3                                             |
-| BrightGreen     | `#A3FF8C` | Strings, hashtags                                                           |
-| Green           | `#7fff00` | Comments in some languages, math symbols in KaTeX                           |
-| BrightRed       | `#FF3B3B` | Errors and Bool = false                                                     |
-| Blue            | `#3465a4` | Links                                                                       |
-| BrightBlue      | `#0285f9` | Rarely used super accent, Header 6                                          |
-| BrightWhite     | `#ECEFF4` | Plaintext, code symbols                                                     |
-| BrightBlack     | `#999988` | Comments in some languages, punctuation, Header 5                           |
-| White           | `#ACEEEE` | Variables in code                                                           |
-| +oldRed         | `#d66666` | Metaprocessors and loaders                                                  |
-| +Pink           | `#F1ADFF` | Decimal numbers in code, unresolved boolean, `this` keyword when in italic  |
-| +Gold           | `#E3E9AE` | Property keys in yaml & json files, arguments                               |
+| BrightCyan      | `#34e2e2` | Main text, Object and classes names, section names in conf |
+| Cyan            | `#116d61` | Types, Header 4  |
+| Red             | `#fc5698` | Accents, functions and method names, Titles |
+| BrightYellow    | `#ffe61c` | Keywords, Header 1  |
+| Yellow          | `#fe8019` | FDunction calls, buttons, expandvars, Header 2 |
+| BrightMagenta   | `#8b5cf6` | Activity/hover accent, decorators, Header 3 |
+| BrightGreen     | `#A3FF8C` | Strings, hashtags   |
+| Green           | `#7fff00` | Comments in some languages, math symbols in KaTeX |
+| BrightRed       | `#FF3B3B` | Errors and Bool = false   |
+| Blue            | `#3465a4` | Links   |
+| BrightBlue      | `#0285f9` | Rarely used super accent, Header 6 |
+| BrightWhite     | `#ECEFF4` | Plaintext, code symbols   |
+| BrightBlack     | `#999988` | Comments in some languages, punctuation, Header 5 |
+| White           | `#ACEEEE` | Variables in code, tables content  |
+| +oldRed         | `#d66666` | Metaprocessors and loaders   |
+| +Pink           | `#F1ADFF` | Decimal numbers in code, unresolved boolean, `this` keyword when in italic, values and keywords in `.ini`  |
+| +Gold           | `#E3E9AE` | Property keys in yaml & json files, arguments  |
 
------------------------------------------
+-------------------------
 ## ToDo
------------------------------------------
+-------------------------
 
+- [x] Funding by PayPal & ko-fi
 - [x] Published VS Codium version on the marketplace
 - [ ] Publishing VS Code version if incentivized
 - [x] Published Obsidian version
@@ -96,7 +99,7 @@ For developers/writers nostalgic of the future. For those who conceptualize like
 - [x] **MarkDown** $\mathbf{[Full \space support]}$
 - [x] **C** $\mathbf{[Full \space support]}$
 - [ ] **C++** Needs review, 1.3.0 once validated
-- [ ] **C\#** Maybe some monimal support in 1.3.0, unchecked till then.
+- [ ] **C\#** Probably some support in 1.3.0, unchecked till then.
 - [x] **KaTeX** $\mathbf{[Full \space support]}$
 - [x] **LaTeX**
 - [x] **json** $\mathbf{[Full \space support]}$
@@ -122,15 +125,17 @@ No complete support yet for all languages as long as I do not use them. Hopefull
 
 > Do not hesitate to drop me a line on GitHub if you need new tokens added, some more tweaks and like the color scheme. 
 
------------------------------------------
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E8O422YFT1)
+
+-------------------------
 ## Screenshots
------------------------------------------
+-------------------------
 
 ![Tokyo Terminal in Action: KaTeX](images/screenshot1.png)
 ![Tokyo Terminal in Action: C embedding](images/screenshot2.png)
 ![Color Palette](images/palette.png)
 
----
+***
 **Made by 神縁 in 2026 under TSLST License**
 [GitHub](https://github.com/TSLST)
 [Mastodon](https://mastodon.social/@TSLST) Even though I don't actually like Mastodon
