@@ -64,25 +64,25 @@ For developers/writers nostalgic of the future. For those who conceptualize like
 
 | Color           | Hex        | Usage |
 |---              |---         |--- |
-| Black           | `#060507` | Darkest Background for text and coding   |
-| Magenta         | `#2a2436` | Lighter Background for teminals and UI, also semi-hidden backreturn/separators signs and null values |
-| BrightCyan      | `#34e2e2` | Main text, Object and classes names, section names in conf |
-| Cyan            | `#116d61` | Types, Header 4  |
-| Red             | `#fc5698` | Accents, functions and method names, Titles |
-| BrightYellow    | `#ffe61c` | Keywords, Header 1  |
-| Yellow          | `#fe8019` | FDunction calls, buttons, expandvars, Header 2 |
-| BrightMagenta   | `#8b5cf6` | Activity/hover accent, decorators, Header 3 |
-| BrightGreen     | `#A3FF8C` | Strings, hashtags   |
-| Green           | `#7fff00` | Comments in some languages, math symbols in KaTeX |
-| BrightRed       | `#FF3B3B` | Errors and Bool = false   |
-| Blue            | `#3465a4` | Links   |
-| BrightBlue      | `#0285f9` | Rarely used super accent, Header 6 |
-| BrightWhite     | `#ECEFF4` | Plaintext, code symbols   |
-| BrightBlack     | `#999988` | Comments in some languages, punctuation, Header 5 |
-| White           | `#ACEEEE` | Variables in code, tables content  |
-| +oldRed         | `#d66666` | Metaprocessors and loaders   |
-| +Pink           | `#F1ADFF` | Decimal numbers in code, unresolved boolean, `this` keyword when in italic, values and keywords in `.ini`  |
-| +Gold           | `#E3E9AE` | Property keys in yaml & json files, arguments  |
+| Black           | #060507` | Darkest Background for text and coding   |
+| Magenta         | #2a2436` | Lighter Background for teminals and UI, also semi-hidden backreturn/separators signs and null values |
+| BrightCyan      | #34e2e2` | Main text, Object and classes names, section names in conf |
+| Cyan            | #116d61` | Types, Header 4  |
+| Red             | #fc5698` | Accents, functions and method names, Titles |
+| BrightYellow    | #ffe61c` | Keywords, Header 1  |
+| Yellow          | #fe8019` | FDunction calls, buttons, expandvars, Header 2 |
+| BrightMagenta   | #8b5cf6` | Activity/hover accent, decorators, Header 3 |
+| BrightGreen     | #A3FF8C` | Strings, hashtags   |
+| Green           | #7fff00` | Comments in some languages, math symbols in KaTeX |
+| BrightRed       | #FF3B3B` | Errors and Bool = false   |
+| Blue            | #3465a4` | Links   |
+| BrightBlue      | #0285f9` | Rarely used super accent, Header 6 |
+| BrightWhite     | #ECEFF4` | Plaintext, code symbols   |
+| BrightBlack     | #999988` | Comments in some languages, punctuation, Header 5 |
+| White           | #ACEEEE` | Variables in code, tables content  |
+| +oldRed         | #d66666` | Metaprocessors and loaders   |
+| +Pink           | #F1ADFF` | Decimal numbers in code, unresolved boolean, `this` keyword when in italic, values and keywords in `.ini`  |
+| +Gold           | #E3E9AE` | Property keys in yaml & json files, arguments  |
 
 -------------------------
 ## ToDo

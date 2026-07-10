@@ -8,6 +8,7 @@ Contributors: [神縁]
 ---
 
 # Changelog
+================================================================================
 
 - **2026-01-26 T 01:40 + 02:00**:<br>
 Initial commit of a usable version, there are definitely variables unset and forced to ff3b3b or FF0000 by default (I switch things to 00FF00 or 0000FF when I want to check the effect of the variable) Actual production red is decided to be ef2929 (Or 8B3A3A for an aged red).
