@@ -5,7 +5,7 @@ Tags: !!str "#documentation #theme"
 Creation: 2026-01-15
 Update: 2026-07-10
 Contributors: [神縁]
-Version: !!str 1.2.10
+Version: !!str 1.2.11
 ---
 
 
@@ -45,6 +45,8 @@ This isn’t just a color scheme; it’s a high-contrast, high-energy workspace 
 
 Transform VS Codium/Code into a neon-lit, retro-futurist terminal with high-contrast colors and synthwave accents inspired by Tokyo electric nights aesthetics.
 
+The same color coding has already ported under the same name in Obsidian.
+
 #### Design Philosophy
 
 Inspired by the **hypnotic color glow of vintage CRTs**, the **hyper-saturated dreams of synthwave**, *vibrancy of outrun nostalgia*, tokyo-terminal is a love letter to the 80s colors scheme as I reimagined, restylized and modernized them.
@@ -64,25 +66,25 @@ For developers/writers nostalgic of the future. For those who conceptualize like
 
 | Color           | Hex        | Usage |
 |---              |---         |--- |
-| Black           | `#060507` | Darkest Background for text and coding   |
-| Magenta         | `#2a2436` | Lighter Background for teminals and UI, also semi-hidden backreturn/separators signs and null values |
-| BrightCyan      | `#34e2e2` | Main text, Object and classes names, section names in conf |
-| Cyan            | `#116d61` | Types, Header 4  |
-| Red             | `#fc5698` | Accents, functions and method names, Titles |
-| BrightYellow    | `#ffe61c` | Keywords, Header 1  |
-| Yellow          | `#fe8019` | FDunction calls, buttons, expandvars, Header 2 |
-| BrightMagenta   | `#8b5cf6` | Activity/hover accent, decorators, Header 3 |
-| BrightGreen     | `#A3FF8C` | Strings, hashtags   |
-| Green           | `#7fff00` | Comments in some languages, math symbols in KaTeX |
-| BrightRed       | `#FF3B3B` | Errors and Bool = false   |
-| Blue            | `#3465a4` | Links   |
-| BrightBlue      | `#0285f9` | Rarely used super accent, Header 6 |
-| BrightWhite     | `#ECEFF4` | Plaintext, code symbols   |
-| BrightBlack     | `#999988` | Comments in some languages, punctuation, Header 5 |
-| White           | `#ACEEEE` | Variables in code, tables content  |
-| +oldRed         | `#d66666` | Metaprocessors and loaders   |
-| +Pink           | `#F1ADFF` | Decimal numbers in code, unresolved boolean, `this` keyword when in italic, values and keywords in `.ini`  |
-| +Gold           | `#E3E9AE` | Property keys in yaml & json files, arguments  |
+| Black           | #060507` | Darkest Background for text and coding   |
+| Magenta         | #2a2436` | Lighter Background for teminals and UI, also semi-hidden backreturn/separators signs and null values |
+| BrightCyan      | #34e2e2` | Main text, Object and classes names, section names in conf |
+| Cyan            | #116d61` | Types, Header 4  |
+| Red             | #fc5698` | Accents, functions and method names, Titles |
+| BrightYellow    | #ffe61c` | Keywords, Header 1  |
+| Yellow          | #fe8019` | FDunction calls, buttons, expandvars, Header 2 |
+| BrightMagenta   | #8b5cf6` | Activity/hover accent, decorators, Header 3 |
+| BrightGreen     | #A3FF8C` | Strings, hashtags   |
+| Green           | #7fff00` | Comments in some languages, math symbols in KaTeX |
+| BrightRed       | #FF3B3B` | Errors and Bool = false   |
+| Blue            | #3465a4` | Links   |
+| BrightBlue      | #0285f9` | Rarely used super accent, Header 6 |
+| BrightWhite     | #ECEFF4` | Plaintext, code symbols   |
+| BrightBlack     | #999988` | Comments in some languages, punctuation, Header 5 |
+| White           | #ACEEEE` | Variables in code, tables content  |
+| +oldRed         | #d66666` | Metaprocessors and loaders   |
+| +Pink           | #F1ADFF` | Decimal numbers in code, unresolved boolean, `this` keyword when in italic, values and keywords in `.ini`  |
+| +Gold           | #E3E9AE` | Property keys in yaml & json files, arguments  |
 
 -------------------------
 ## ToDo
@@ -98,7 +100,7 @@ For developers/writers nostalgic of the future. For those who conceptualize like
 - [ ] Port to Chrome
 - [x] **MarkDown** $\mathbf{[Full \space support]}$
 - [x] **C** $\mathbf{[Full \space support]}$
-- [ ] **C++** Needs review, 1.3.0 once validated
+- [ ] **C++** Some support, needs more work, 1.3.0 once validated
 - [ ] **C\#** Probably some support in 1.3.0, unchecked till then.
 - [x] **KaTeX** $\mathbf{[Full \space support]}$
 - [x] **LaTeX**
@@ -111,6 +113,7 @@ For developers/writers nostalgic of the future. For those who conceptualize like
 - [x] **bash** $\mathbf{[Full \space support]}$
 - [x] .**js**
 - [x] **java**
+- [x] **Perl**
 - [x] **Go**
 - [x] **Git**
 - [x] **SQL**
@@ -125,7 +128,7 @@ No complete support yet for all languages as long as I do not use them. Hopefull
 
 > Do not hesitate to drop me a line on GitHub if you need new tokens added, some more tweaks and like the color scheme. 
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E8O422YFT1)
+[![ko-fi](https://ps.w.org/ko-fi-button/assets/icon-256x256.png?rev=3252422)](https://ko-fi.com/E8O422YFT1)
 
 -------------------------
 ## Screenshots

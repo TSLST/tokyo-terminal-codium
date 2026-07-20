@@ -912,6 +912,24 @@
 		},
 		{
 			"scope": [
+				"source.perl"
+			],
+			"settings": {
+				"foreground": "#F1ADFF",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"constant.other.key.perl"
+			],
+			"settings": {
+				"foreground": "#E3E9AE",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
 				"source.sql"
 			],
 			"settings": {
@@ -1382,6 +1400,27 @@
 			"settings": {
 				"foreground": "#FFE61C",
 				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"entity.other.attribute-name.js"
+			],
+			"settings": {
+				"foreground": "#FFE61C",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope":[
+				"meta.tag.metadata.doctype.html entity.name.tag.html",
+				"meta.tag.metadata.doctype.html punctuation.definition.tag.begin.html",
+				"meta.tag.metadata.doctype.html punctuation.definition.tag.end.html",
+				"meta.tag.metadata.doctype.html entity.other.attribute-name.html"
+			],
+			"settings": {
+				"foreground": "#d66666",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -2976,7 +3015,8 @@
 		},
 		{
 			"scope": [
-				"string.quoted.docstring.multi.python"
+				"string.quoted.docstring.multi.python",
+				"string.quoted.docstring.raw.multi.python"
 			],
 			"settings": {
 				"foreground": "#7FFF00",
@@ -3192,6 +3232,135 @@
 			],
 			"settings": {
 				"foreground": "#34E2E2"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.string.begin meta.encoding"
+			],
+			"settings": {
+				"foreground": "#116d61",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"meta.body.class.cpp"
+			],
+			"settings": {
+				"foreground": "#34e2e2",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"constant.language.true.cpp"
+			],
+			"settings": {
+				"foreground": "#7fff00",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"constant.language.false.cpp"
+			],
+			"settings": {
+				"foreground": "#FF3B3B",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"variable.language.this.cpp"
+			],
+			"settings": {
+				"foreground": "#F1ADFF",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"meta.parens.cpp"
+			],
+			"settings": {
+				"foreground": "#ACEEEE",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"storage.modifier.specifier.functional.post-parameters.noexcept.cpp"
+			],
+			"settings": {
+				"foreground": "#8b5cf6",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"meta.body.namespace.cpp"
+			],
+			"settings": {
+				"foreground": "#ACEEEE",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"meta.head.function.definition.special.constructor.cpp meta.parameter.initialization"
+			],
+			"settings": {
+				"foreground": "#E3E9AE",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.string.begin.cpp",
+				"punctuation.definition.string.end.cpp",
+				"source.cpp punctuation.definition.string.begin",
+				"source.cpp punctuation.definition.string.end"
+			],
+			"settings": {
+				"foreground": "#999998",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type.cpp"
+			],
+			"settings": {
+				"foreground": "#116d61",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.scope-resolution.cpp"
+			],
+			"settings": {
+				"foreground": "#fe8019",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"meta.body.struct.cpp"
+			],
+			"settings": {
+				"foreground": "#F1ADFF",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"source.cpp meta.parameter.initialization"
+			],
+			"settings": {
+				"foreground": "#ECEFF4",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -3960,7 +4129,8 @@
 		},
 		{
 			"scope": [
-				"text.html.markdown markup.underline.link"
+				"text.html.markdown markup.underline.link",
+				"meta.link.email.lt-gt.markdown"
 			],
 			"settings": {
 				"foreground": "#3465A4",
@@ -4076,6 +4246,24 @@
 			"settings": {
 				"foreground": "#34E2E2",
 				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"source.vb6"
+			],
+			"settings": {
+				"foreground": "#ACEEEE",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope":[
+				"support.type.builtin.vb6"
+			],
+			"settings": {
+				"foreground": "#116d61",
+				"fontStyle": "bold"
 			}
 		},
 		{
