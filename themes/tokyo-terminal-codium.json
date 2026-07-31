@@ -309,13 +309,15 @@
 		{
 			"scope": "constant.language.boolean.true",
 			"settings": {
-				"foreground": "#7fff00"
+				"foreground": "#7fff00",
+				"fontStyle": "bold"
 			}
 		},
 		{
 			"scope": "constant.language.boolean.false",
 			"settings": {
-				"foreground": "#FF3B3B"
+				"foreground": "#FF3B3B",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -394,6 +396,134 @@
 			],
 			"settings": {
 				"foreground": "#FF3B3B"
+			}
+		},
+		{
+			"scope": [
+				"source.cs"
+			],
+			"settings": {
+				"foreground": "#ECEFF4"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type.namespace.cs",
+				"entity.name.variable.tuple-element.cs",
+				"entity.name.variable.field.cs",
+				"entity.name.variable.local.cs"
+			],
+			"settings": {
+				"foreground": "#aceeee",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type.enum.cs"
+			],
+			"settings": {
+				"foreground": "#34E2E2",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"variable.language.this.cs"
+			],
+			"settings": {
+				"foreground": "#F1ADFF",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"keyword.type.string.cs",
+				"keyword.type.bool.cs",
+				"keyword.type.int.cs",
+				"keyword.type.char.cs",
+				"entity.name.type.cs"
+			],
+			"settings": {
+				"foreground": "#116D61",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.string.begin.cs",
+				"punctuation.definition.string.end.cs"
+			],
+			"settings": {
+				"foreground": "#999998",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"punctuation.separator.question-mark.cs",
+				"storage.type.accessor.init.cs",
+				"keyword.operator.expression.new.cs"
+			],
+			"settings": {
+				"foreground": "#ffe61c",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"storage.type.accessor.get.cs",
+				"storage.type.accessor.set.cs"
+			],
+			"settings": {
+				"foreground": "#8b5cf6",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.variable.parameter.cs",
+				"entity.name.variable.enum-member.cs"
+			],
+			"settings": {
+				"foreground": "#E3E9AE",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"keyword.other.directive.using.cs"
+			],
+			"settings": {
+				"foreground": "#d66666",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.variable.property.cs"
+			],
+			"settings": {
+				"foreground": "#fe8019",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"variable.other.object.property.cs"
+			],
+			"settings": {
+				"foreground": "#fc5698",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"keyword.type.void.cs"
+			],
+			"settings": {
+				"foreground": "#8b5cf6",
+				"fontStyle": "bold"
 			}
 		},
 		{

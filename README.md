@@ -3,9 +3,9 @@ Type: Doc
 Use: Readme docs for Tokyo Terminal theme, VS Codium/Code version.
 Tags: !!str "#documentation #theme"
 Creation: 2026-01-15
-Update: 2026-07-10
+Update: 2026-07-30
 Contributors: [神縁]
-Version: !!str 1.2.11
+Version: !!str 1.3.0
 ---
 
 
@@ -66,25 +66,25 @@ For developers/writers nostalgic of the future. For those who conceptualize like
 
 | Color           | Hex        | Usage |
 |---              |---         |--- |
-| Black           | #060507` | Darkest Background for text and coding   |
-| Magenta         | #2a2436` | Lighter Background for teminals and UI, also semi-hidden backreturn/separators signs and null values |
-| BrightCyan      | #34e2e2` | Main text, Object and classes names, section names in conf |
-| Cyan            | #116d61` | Types, Header 4  |
-| Red             | #fc5698` | Accents, functions and method names, Titles |
-| BrightYellow    | #ffe61c` | Keywords, Header 1  |
-| Yellow          | #fe8019` | FDunction calls, buttons, expandvars, Header 2 |
-| BrightMagenta   | #8b5cf6` | Activity/hover accent, decorators, Header 3 |
-| BrightGreen     | #A3FF8C` | Strings, hashtags   |
-| Green           | #7fff00` | Comments in some languages, math symbols in KaTeX |
-| BrightRed       | #FF3B3B` | Errors and Bool = false   |
-| Blue            | #3465a4` | Links   |
-| BrightBlue      | #0285f9` | Rarely used super accent, Header 6 |
-| BrightWhite     | #ECEFF4` | Plaintext, code symbols   |
-| BrightBlack     | #999988` | Comments in some languages, punctuation, Header 5 |
-| White           | #ACEEEE` | Variables in code, tables content  |
-| +oldRed         | #d66666` | Metaprocessors and loaders   |
-| +Pink           | #F1ADFF` | Decimal numbers in code, unresolved boolean, `this` keyword when in italic, values and keywords in `.ini`  |
-| +Gold           | #E3E9AE` | Property keys in yaml & json files, arguments  |
+| Black           | `#060507` | Darkest Background for text and coding   |
+| Magenta         | `#2a2436` | Lighter Background for teminals and UI, also semi-hidden backreturn/separators signs and null values |
+| BrightCyan      | `#34e2e2` | Main text, Object and classes names, section names in conf |
+| Cyan            | `#116d61` | Types, Header 4  |
+| Red             | `#fc5698` | Accents, functions and method names, Titles |
+| BrightYellow    | `#ffe61c` | Keywords, Header 1  |
+| Yellow          | `#fe8019` | FDunction calls, buttons, expandvars, Header 2 |
+| BrightMagenta   | `#8b5cf6` | Activity/hover accent, decorators, Header 3 |
+| BrightGreen     | `#A3FF8C` | Strings, hashtags   |
+| Green           | `#7fff00` | Comments in some languages, math symbols in KaTeX |
+| BrightRed       | `#FF3B3B` | Errors and Bool = false   |
+| Blue            | `#3465a4` | Links   |
+| BrightBlue      | `#0285f9` | Rarely used super accent, Header 6 |
+| BrightWhite     | `#ECEFF4` | Plaintext, code symbols   |
+| BrightBlack     | `#999988` | Comments in some languages, punctuation, Header 5 |
+| White           | `#ACEEEE` | Variables in code, tables content  |
+| +oldRed         | `#d66666` | Metaprocessors and loaders   |
+| +Pink           | `#F1ADFF` | Decimal numbers in code, unresolved boolean, `this` keyword when in italic, values and keywords in `.ini`  |
+| +Gold           | `#E3E9AE` | Property keys in yaml & json files, arguments  |
 
 -------------------------
 ## ToDo
@@ -98,10 +98,11 @@ For developers/writers nostalgic of the future. For those who conceptualize like
 - [ ] Publish Licence to SPDX
 - [ ] Review port to Firefox
 - [ ] Port to Chrome
+- [ ] Check `source.ts punctuation.decorator` and other tokens. Not sure what these are yet and they are under a sentinel color for now.
 - [x] **MarkDown** $\mathbf{[Full \space support]}$
 - [x] **C** $\mathbf{[Full \space support]}$
-- [ ] **C++** Some support, needs more work, 1.3.0 once validated
-- [ ] **C\#** Probably some support in 1.3.0, unchecked till then.
+- [ ] **C++** Some support, needs more work, 1.3.1 once validated
+- [x] **C\#**
 - [x] **KaTeX** $\mathbf{[Full \space support]}$
 - [x] **LaTeX**
 - [x] **json** $\mathbf{[Full \space support]}$
@@ -139,6 +140,6 @@ No complete support yet for all languages as long as I do not use them. Hopefull
 ![Color Palette](images/palette.png)
 
 ***
-**Made by 神縁 in 2026 under TSLST License**
-[GitHub](https://github.com/TSLST)
-[Mastodon](https://mastodon.social/@TSLST) Even though I don't actually like Mastodon
+**Made by 神縁 in 2026 under TSLST License** 
+[GitHub](https://github.com/TSLST) 
+[Mastodon](https://mastodon.social/@TSLST) Even though I don't actually like Mastodon 
