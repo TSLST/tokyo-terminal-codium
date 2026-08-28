@@ -3,7 +3,7 @@ Type: Doc
 Use: Readme docs for Tokyo Terminal theme, VS Codium/Code version.
 Tags: !!str "#documentation #theme"
 Creation: 2026-01-15
-Update: 2026-07-30
+Update: 2026-08-28
 Contributors: [神縁]
 ---
 
@@ -58,3 +58,5 @@ Finished to update PHP and added SQL. Adress punctuation changed to link blue #3
 Minor tweaks. I am thinking about developping a cfg keywords extensions as the game cfg I am working on at the moment tend to have all keywords reverting to source.ini token. seta, bind, alias in pink is kind of ugly and disorienting for a visual approach like Tokyo Terminal.
 - **2026-07-30 T 23:56 + 02:00**:<br>
 Added C# tokens. It should cover a relatively large scope. Tweaking more would need to actually code in cs.
+- **2026-08-28 T 18:00 + 02:00**:<br>
+Added .lua scripts tokens. Not sure if `local` keyword should be cyan like a type or purple like a decorator. Also, decorators should probably be italic and purple rather than bold.

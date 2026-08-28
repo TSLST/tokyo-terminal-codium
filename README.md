@@ -3,9 +3,9 @@ Type: Doc
 Use: Readme docs for Tokyo Terminal theme, VS Codium/Code version.
 Tags: !!str "#documentation #theme"
 Creation: 2026-01-15
-Update: 2026-07-30
+Update: 2026-08-28
 Contributors: [神縁]
-Version: !!str 1.3.0
+Version: !!str 1.3.1
 ---
 
 
@@ -123,7 +123,7 @@ For developers/writers nostalgic of the future. For those who conceptualize like
 - [x] **Solidity** via juanfranblanco Solidity extension. Either the extension is rigged or the author is being downvoted by malicious actors, beware.
 - [x] **php**
 - [x] **XML**
-- [x] .**ini** files, **dockerfiles**, .**conf** files $\mathbf{[Full \space support]}$
+- [x] .**ini** files, .**lua** scripts, **dockerfiles**, .**conf** files $\mathbf{[Full \space support]}$
 <br><br>
 No complete support yet for all languages as long as I do not use them. Hopefully they are close enough for now
 
